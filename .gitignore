@@ -1,0 +1,38 @@
+# Ignorar tudo por padrão
+*
+
+# ---- EXCEÇÕES: O que deve ser INCLUÍDO ----
+!.gitignore
+!.gitattributes
+!ARRCON.EXE
+!docker-compose.yml
+
+# Scripts da raiz
+!cs2-data/acmrs.sh
+!cs2-data/post.sh
+!cs2-data/pre.sh
+
+# Arquivos e pastas de configuração do CS2
+!cs2-data/game/
+!cs2-data/game/csgo/
+!cs2-data/game/csgo/addons/
+!cs2-data/game/csgo/addons/**
+!cs2-data/game/csgo/cfg/
+!cs2-data/game/csgo/cfg/**
+!cs2-data/game/csgo/demos/
+!cs2-data/game/csgo/demos/**
+!cs2-data/game/csgo/matchesjson/
+!cs2-data/game/csgo/matchesjson/**
+!cs2-data/game/csgo/scripts/
+!cs2-data/game/csgo/scripts/**
+!cs2-data/game/csgo/gamemodes_server.txt
+
+# ---- EXCLUSÕES: O que deve ser IGNORADO (mesmo dentro das exceções) ----
+# Ignorar logs e arquivos de relatório
+/cs2-data/game/csgo/logs/
+/cs2-data/game/csgo/rpt/
+*.log
+
+# Ignorar pastas de backup e temporárias
+/cs2-data/game/csgo/MatchZyDataBackup/
+/cs2-data/steamapps/

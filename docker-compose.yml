@@ -1,0 +1,83 @@
+services:
+  cs2-server:
+    image: joedwards32/cs2
+    container_name: cs2-server
+    environment:
+      # Server configuration
+      - SRCDS_TOKEN=${SRCDS_TOKEN}
+      - STEAMAPPVALIDATE=${STEAMAPPVALIDATE}
+      - CS2_SERVERNAME=${CS2_SERVERNAME}
+      - CS2_PW
+      - CS2_CHEATS=${CS2_CHEATS}
+      - CS2_PORT=${CS2_PORT}
+      - CS2_RCON_PORT=${CS2_RCON_PORT}
+      - CS2_SERVER_HIBERNATE=${CS2_SERVER_HIBERNATE}
+      - CS2_LAN=${CS2_LAN}
+      - CS2_RCONPW=${CS2_RCONPW}
+      - CS2_MAXPLAYERS=${CS2_MAXPLAYERS}
+      - CS2_ADDITIONAL_ARGS=${CS2_ADDITIONAL_ARGS}
+      - CS2_CFG_URL
+      # Game modes
+      - CS2_GAMEALIAS=${CS2_GAMEALIAS}
+      - CS2_GAMETYPE=${CS2_GAMETYPE}
+      - CS2_GAMEMODE=${CS2_GAMEMODE}
+      - CS2_MAPGROUP=${CS2_MAPGROUP}
+      - CS2_STARTMAP
+      # Workshop Maps
+      - CS2_HOST_WORKSHOP_COLLECTION
+      - CS2_HOST_WORKSHOP_MAP=${CS2_HOST_WORKSHOP_MAP}
+      # TV
+      - TV_AUTORECORD=${TV_AUTORECORD}
+      - TV_ENABLE=${TV_ENABLE}
+      - TV_PORT=${TV_PORT}
+      - TV_PW
+      - TV_RELAY_PW
+      - TV_MAXRATE=${TV_MAXRATE}
+      - TV_DELAY=${TV_DELAY}
+      # Logs
+      - CS2_LOG=${CS2_LOG}
+      - CS2_LOG_MONEY=${CS2_LOG_MONEY}
+      - CS2_LOG_DETAIL=${CS2_LOG_DETAIL}
+      - CS2_LOG_ITEMS=${CS2_LOG_ITEMS}
+    depends_on:
+      cs2-db:
+        condition: service_healthy
+        restart: true
+    volumes:
+      - ./cs2-data:/home/steam/cs2-dedicated
+    ports:
+      - "${CS2_PORT}:${CS2_PORT}/tcp"
+      - "${CS2_PORT}:${CS2_PORT}/udp"
+      - "${CS2_RCON_PORT}:${CS2_RCON_PORT}"
+    networks:
+      - cs2-network
+    stdin_open: true
+    tty: true
+
+  cs2-db:
+    image: mysql:latest
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_USER: 'server'
+      MYSQL_PASSWORD: '${MYSQL_PASSWORD}'
+      MYSQL_ROOT_PASSWORD: '${MYSQL_ROOT_PASSWORD}'
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 5s
+      retries: 10
+    ports:
+      - '${PORT_PC_TO_DB}:3306'
+    expose:
+      - '3306'
+    volumes:
+      - cs2-db:/var/lib/mysql
+    networks:
+      - cs2-network
+
+volumes:
+  cs2-db:
+
+networks:
+  cs2-network:
+    driver: bridge
+    name: cs2-network

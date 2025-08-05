@@ -1,0 +1,278 @@
+// Values here override the default gamemodes.txt
+// https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive/Game_Modes
+
+"GameModes_Server.txt"
+{
+	"gameTypes"
+	{
+		"classic"
+		{
+			"gameModes"
+			{
+				"casual"
+				{
+					"maxplayers"			"64"
+					"exec"
+					{
+						"exec" "gamemode_casual_last.cfg"
+					}
+					// Map groups for online modes
+					"mapgroupsMP"
+					{
+						//Other Maps Groups
+						"mg_1v1"			"50"
+						"mg_bhop"			"51"
+						"mg_kz"				"52"
+						"mg_surf"			"53"
+						"mg_minigames"		"54"
+						"mg_scoutzknivez"	"55"
+						"mg_course"			"56"
+						"mg_hns"			"57"
+						"mg_soccer"			"58"
+						"mg_gg"				"59"
+						"mg_awp"			"60"
+						"mg_aim"			"61"
+						"mg_prefire"		"62"
+						"mg_deathrun"		"63"
+						"mg_battleroyale"	"64"
+						"mg_casual-1.6"		"65"
+						"mg_45"				"66"
+						"mg_battle"			"67"
+						"mg_prefire"		"68"
+						"mg_retake"			"69"
+						"mg_executes"		"70"
+					}
+				}
+
+				"competitive"
+				{
+					"maxplayers"			"13"
+					"exec"
+					{
+						"exec" "gamemode_competitive_last.cfg"
+					}
+					// Map groups for online modes
+					"mapgroupsMP"
+					{
+						// team lobby map veto
+						"mg_comp"			"50"
+					}
+				}
+
+				// Wingman
+				"scrimcomp2v2"
+				{
+					"maxplayers"			"64"
+					"exec"
+					{
+						"exec" "gamemode_competitive2v2_last.cfg"
+					}
+					// Map groups for online modes
+					"mapgroupsMP"
+					{
+						"mg_wingman"		"50"
+					}
+				}
+
+				"deathmatch"
+				{
+					"maxplayers"			"64"
+					"exec"
+					{
+						"exec" "gamemode_deathmatch_last.cfg"
+					}
+					// Map groups for online modes
+					"mapgroupsMP"
+					{
+						"mg_dm"		"50"
+					}
+				}
+			}
+		}
+	}
+	"mapgroups"
+	{
+		"mg_active"
+		{
+			"name"					"mg_active"
+			"displayname"			"Active"
+			"maps"
+			{
+				"de_ancient"	""
+				"de_anubis"		""
+				"de_inferno"	""
+				"de_mirage"		""
+				"de_nuke"		""
+				"de_dust2"		""
+				"de_train"		""
+			}
+		}
+		"mg_comp"
+		{
+			"name"			"mg_comp"
+			"displayname"			"Competitive"
+			"maps"
+			{
+				"cs_italy"			""
+				"cs_office"			""
+				"de_vertigo"		""
+				"de_ancient"		""
+				"de_anubis"			""
+				"de_dust2"			""
+				"de_inferno"		""
+				"de_mirage"			""
+				"de_nuke"			""
+				"de_train"			""
+				"de_overpass"		""
+				"de_vertigo"		""
+				"de_jura"			""
+				"de_grail"			""
+				"cs_agency"			""
+				"workshop/3402423113/de_mirage_christmas"		""
+			}
+		}
+		"mg_retake"
+		{
+			"name"					"mg_retake"
+			"displayname"			"Retakes"
+			"maps"
+			{
+				"de_ancient"	""
+				"de_anubis"		""
+				"de_inferno"	""
+				"de_mirage"		""
+				"de_nuke"		""
+				"de_dust2"		""
+				"de_train"		""
+				"de_overpass"	""
+				"de_vertigo"	""
+				"workshop/3402423113/de_mirage_christmas"		""
+			}
+		}
+		"mg_prefire"
+		{
+			"name"					"mg_prefire"
+			"displayname"			"Prefire"
+			"maps"
+			{
+				"de_ancient"	""
+				"de_anubis"		""
+				"de_inferno"	""
+				"de_mirage"		""
+				"de_nuke"		""
+				"de_dust2"		""
+				"de_train"		""
+				"de_overpass"	""
+				"de_vertigo"	""
+			}
+		}
+		"mg_executes"
+		{
+			"name"					"mg_executes"
+			"displayname"			"Executes"
+			"maps"
+			{
+				"de_mirage"		""
+			}
+		}
+		"mg_wingman"
+		{
+			"name"			"mg_wingman"
+			"displayname"			"Wingman"
+			"maps"
+			{
+				"workshop/3413800427/de_dust2_wingman"		""
+				"workshop/3402437047/de_mirage_d"		""
+				"cs_italy"			""
+				"cs_office"			""
+				"de_vertigo"		""
+				"de_ancient"		""
+				"de_anubis"			""
+				"de_inferno"		""
+				"de_nuke"			""
+				"de_train"			""
+				"de_overpass"		""
+				"de_vertigo"		""
+				"ar_shoots"			""
+				"ar_baggage"		""
+				"de_brewery"		""
+				"de_dogtown"		""
+				"workshop/3257582863/de_palais"        ""
+				"workshop/3308613773/de_whistle"        ""
+				"workshop/3085490518/gd_rialto"		""
+				"workshop/3536622725/de_rooftop"		""
+				"workshop/3070550406/de_safehouse"		""
+				"workshop/3070563536/de_lake"		""
+				"workshop/3070581293/de_bank"		""
+				"workshop/3070612859/de_shortdust"		""
+				"workshop/3071005299/de_assembly"		""
+				"workshop/3329387648/de_cbble"		""
+				"workshop/3437809122/de_cache"		""
+				"workshop/3079872050/de_pipeline"		""
+				"workshop/3075706807/de_biome"		""
+				"workshop/3070346180/mp_raid"		""
+				"workshop/3070766070/de_mutiny"		""
+				"workshop/3070594412/cs_assault"		""
+				"workshop/3072352643/de_ruins_d_prefab"		""
+				"workshop/3070284539/de_train"		""
+				"workshop/3082340867/de_sakura"		""
+				"workshop/3165559377/de_memento"		""
+				"workshop/3309665004/skatepark"		""
+				"workshop/3386116667/de_ema"		""
+				"workshop/3360723913/paintit"		""
+				"workshop/3464733042/de_mirage_bricks"		""
+			}
+		}
+		"mg_dm"
+		{
+			"name"			"mg_dm"
+			"displayname"			"Deathmatch"
+			"maps"
+			{
+				"de_vertigo"		""
+				"de_dust2"			""
+				"de_inferno"		""
+				"de_mirage"			""
+			}
+		}
+		"mg_1v1"
+		{
+			"name"			"mg_1v1"
+			"displayname"			"1v1"
+			"maps"
+			{
+				"workshop/3070253400/aim_redline_fp"		""
+			}
+		}
+		"mg_aim"
+		{
+			"name"			"mg_aim"
+			"displayname"			"Aim"
+			"maps"
+			{
+				"workshop/3084291314/aim_map"			""
+				"workshop/3146122036/freebet_aim_map"	""
+				"workshop/3070923343/fy_pool_day"		""
+				"workshop/3078701726/aim_ak-colt_CS2"   ""
+				"workshop/3085962528/aim_usp"		""
+				"workshop/3075996446/aim_deagle"		""
+				"workshop/3082605693/1v1aim_map_longdustversion_d"		""
+			}
+		}
+		"mg_prefire"
+		{
+			"name"			"mg_prefire"
+			"displayname"			"Prefire"
+			"maps"
+			{
+				"de_ancient"		""
+				"de_dust2"			""
+				"de_inferno"		""
+				"de_mirage"			""
+				"de_overpass"		""
+				"de_anubis"			""
+				"de_nuke"			""
+			}
+		}
+	}
+}

@@ -1,0 +1,81 @@
+2025-08-04 07:23:07.974 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 07:23:08.007 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 07:23:08.009 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 07:54:10.375 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 07:54:10.509 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 07:54:10.512 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 08:00:00.527 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 08:00:00.560 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 08:00:00.562 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 08:04:33.662 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 08:04:33.700 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 08:04:33.704 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 08:09:28.457 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 08:09:28.489 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 08:09:28.491 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 08:19:48.488 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 08:19:48.523 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 08:19:48.525 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 08:24:33.982 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 08:24:34.014 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 08:24:34.016 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 08:33:53.898 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 08:33:53.934 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 08:33:53.936 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 08:40:03.369 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 08:40:03.404 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 08:40:03.406 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 08:56:40.118 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 08:56:40.155 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 08:56:40.157 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 09:01:24.840 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 09:01:24.894 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 09:01:24.897 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 17:38:11.558 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 17:38:11.593 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 17:38:11.595 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 18:50:48.247 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 18:50:48.284 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 18:50:48.286 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 19:11:11.282 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 19:11:11.315 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 19:11:11.317 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 19:39:54.368 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 19:39:54.404 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 19:39:54.406 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 19:46:56.324 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 19:46:56.463 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 19:46:56.465 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 20:56:22.858 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 20:56:23.005 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 20:56:23.008 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 21:09:23.944 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 21:09:24.100 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 21:09:24.102 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 21:15:58.949 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 21:15:59.104 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 21:15:59.107 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 21:40:40.076 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 21:40:40.110 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 21:40:40.112 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 21:51:44.672 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 21:51:44.705 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 21:51:44.707 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 22:11:00.714 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 22:11:00.746 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 22:11:00.748 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 22:27:03.098 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 22:27:03.130 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 22:27:03.132 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 22:33:21.114 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 22:33:21.148 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 22:33:21.150 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 23:04:36.261 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 23:04:36.293 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 23:04:36.295 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 23:10:04.410 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 23:10:04.444 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 23:10:04.446 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-04 23:14:48.476 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-04 23:14:48.512 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-04 23:14:48.514 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers

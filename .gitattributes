@@ -1,0 +1,4 @@
+**/demos/**/*.dem filter=lfs diff=lfs merge=lfs -text
+**/addons/**/*.dll filter=lfs diff=lfs merge=lfs -text
+**/addons/**/*.so filter=lfs diff=lfs merge=lfs -text
+ARRCON.EXE filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,875 @@
+2025-08-04 07:23:28.673 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 07:23:28.695 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 07:23:28.696 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 07:23:28.697 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 07:23:28.698 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 07:23:28.700 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 07:23:28.701 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 07:23:28.702 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 07:23:28.703 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 07:23:28.704 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 07:23:28.705 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 07:23:28.706 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 07:23:28.707 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 07:23:28.708 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 07:23:28.709 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 07:23:28.710 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 07:23:28.711 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 07:23:28.712 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 07:23:28.713 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 07:23:28.714 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 07:23:28.715 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 07:23:28.716 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 07:23:28.717 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 07:23:28.718 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 07:23:28.718 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 07:23:28.719 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 07:23:28.720 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 07:23:28.721 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 07:23:28.722 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 07:23:28.723 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 07:23:28.724 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 07:23:28.724 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 07:23:28.725 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 07:23:28.726 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 07:54:11.173 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 07:54:11.298 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 07:54:11.299 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 07:54:11.301 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 07:54:11.302 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 07:54:11.304 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 07:54:11.306 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 07:54:11.307 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 07:54:11.309 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 07:54:11.310 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 07:54:11.311 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 07:54:11.313 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 07:54:11.314 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 07:54:11.315 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 07:54:11.316 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 07:54:11.317 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 07:54:11.318 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 07:54:11.319 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 07:54:11.320 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 07:54:11.321 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 07:54:11.322 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 07:54:11.323 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 07:54:11.324 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 07:54:11.325 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 07:54:11.326 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 07:54:11.327 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 07:54:11.327 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 07:54:11.328 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 07:54:11.329 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 07:54:11.330 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 07:54:11.331 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 07:54:11.332 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 07:54:11.333 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 07:54:11.333 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 08:00:01.201 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 08:00:01.223 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 08:00:01.225 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:00:01.226 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 08:00:01.227 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 08:00:01.228 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 08:00:01.229 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 08:00:01.230 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 08:00:01.231 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 08:00:01.232 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 08:00:01.233 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 08:00:01.233 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 08:00:01.234 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 08:00:01.235 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 08:00:01.236 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 08:00:01.237 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 08:00:01.238 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 08:00:01.239 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 08:00:01.240 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:00:01.242 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 08:00:01.243 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 08:00:01.244 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 08:00:01.245 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 08:00:01.246 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 08:00:01.247 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 08:00:01.248 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 08:00:01.249 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 08:00:01.250 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 08:00:01.251 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 08:00:01.252 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 08:00:01.253 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 08:00:01.255 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 08:00:01.256 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 08:00:01.257 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 08:04:34.399 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 08:04:34.423 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 08:04:34.425 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:04:34.426 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 08:04:34.427 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 08:04:34.428 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 08:04:34.430 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 08:04:34.431 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 08:04:34.433 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 08:04:34.434 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 08:04:34.435 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 08:04:34.436 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 08:04:34.437 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 08:04:34.438 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 08:04:34.440 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 08:04:34.440 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 08:04:34.441 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 08:04:34.443 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 08:04:34.444 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:04:34.445 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 08:04:34.446 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 08:04:34.448 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 08:04:34.449 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 08:04:34.450 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 08:04:34.451 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 08:04:34.453 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 08:04:34.454 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 08:04:34.455 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 08:04:34.457 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 08:04:34.457 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 08:04:34.458 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 08:04:34.460 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 08:04:34.461 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 08:04:34.462 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 08:09:09.171 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 08:09:09.194 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 08:09:09.196 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:09:09.197 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 08:09:09.198 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 08:09:09.200 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 08:09:09.201 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 08:09:09.202 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 08:09:09.203 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 08:09:09.204 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 08:09:09.204 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 08:09:09.206 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 08:09:09.207 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 08:09:09.208 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 08:09:09.209 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 08:09:09.210 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 08:09:09.211 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 08:09:09.212 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 08:09:09.212 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:09:09.213 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 08:09:09.214 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 08:09:09.215 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 08:09:09.215 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 08:09:09.216 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 08:09:09.217 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 08:09:09.218 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 08:09:09.219 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 08:09:09.220 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 08:09:09.221 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 08:09:09.221 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 08:09:09.222 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 08:09:09.224 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 08:09:09.225 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 08:09:09.226 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 08:19:49.157 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 08:19:49.181 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 08:19:49.182 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:19:49.183 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 08:19:49.184 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 08:19:49.185 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 08:19:49.186 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 08:19:49.187 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 08:19:49.187 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 08:19:49.188 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 08:19:49.189 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 08:19:49.190 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 08:19:49.191 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 08:19:49.192 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 08:19:49.193 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 08:19:49.194 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 08:19:49.195 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 08:19:49.196 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 08:19:49.197 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:19:49.198 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 08:19:49.199 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 08:19:49.200 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 08:19:49.201 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 08:19:49.202 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 08:19:49.203 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 08:19:49.203 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 08:19:49.204 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 08:19:49.205 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 08:19:49.206 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 08:19:49.207 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 08:19:49.208 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 08:19:49.209 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 08:19:49.210 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 08:19:49.211 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 08:24:34.633 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 08:24:34.655 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 08:24:34.656 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:24:34.657 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 08:24:34.658 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 08:24:34.658 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 08:24:34.659 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 08:24:34.660 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 08:24:34.661 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 08:24:34.662 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 08:24:34.663 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 08:24:34.664 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 08:24:34.665 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 08:24:34.666 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 08:24:34.667 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 08:24:34.668 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 08:24:34.669 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 08:24:34.670 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 08:24:34.671 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:24:34.672 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 08:24:34.673 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 08:24:34.674 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 08:24:34.675 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 08:24:34.676 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 08:24:34.677 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 08:24:34.678 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 08:24:34.679 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 08:24:34.680 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 08:24:34.681 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 08:24:34.681 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 08:24:34.682 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 08:24:34.683 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 08:24:34.684 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 08:24:34.685 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 08:33:54.599 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 08:33:54.623 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 08:33:54.624 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:33:54.625 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 08:33:54.626 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 08:33:54.627 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 08:33:54.627 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 08:33:54.628 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 08:33:54.629 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 08:33:54.631 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 08:33:54.632 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 08:33:54.632 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 08:33:54.633 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 08:33:54.634 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 08:33:54.635 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 08:33:54.636 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 08:33:54.637 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 08:33:54.638 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 08:33:54.639 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:33:54.640 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 08:33:54.641 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 08:33:54.642 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 08:33:54.644 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 08:33:54.645 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 08:33:54.646 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 08:33:54.647 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 08:33:54.649 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 08:33:54.650 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 08:33:54.651 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 08:33:54.652 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 08:33:54.653 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 08:33:54.654 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 08:33:54.655 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 08:33:54.656 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 08:40:04.020 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 08:40:04.042 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 08:40:04.044 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:40:04.045 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 08:40:04.046 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 08:40:04.047 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 08:40:04.047 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 08:40:04.048 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 08:40:04.050 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 08:40:04.051 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 08:40:04.052 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 08:40:04.053 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 08:40:04.054 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 08:40:04.055 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 08:40:04.056 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 08:40:04.057 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 08:40:04.058 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 08:40:04.059 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 08:40:04.059 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:40:04.060 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 08:40:04.062 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 08:40:04.063 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 08:40:04.064 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 08:40:04.065 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 08:40:04.065 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 08:40:04.066 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 08:40:04.068 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 08:40:04.069 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 08:40:04.070 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 08:40:04.071 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 08:40:04.072 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 08:40:04.073 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 08:40:04.074 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 08:40:04.075 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 08:56:40.795 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 08:56:40.818 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 08:56:40.819 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:56:40.820 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 08:56:40.821 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 08:56:40.822 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 08:56:40.823 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 08:56:40.824 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 08:56:40.825 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 08:56:40.826 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 08:56:40.827 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 08:56:40.828 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 08:56:40.829 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 08:56:40.830 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 08:56:40.831 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 08:56:40.832 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 08:56:40.832 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 08:56:40.833 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 08:56:40.834 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 08:56:40.835 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 08:56:40.836 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 08:56:40.837 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 08:56:40.838 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 08:56:40.839 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 08:56:40.840 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 08:56:40.841 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 08:56:40.842 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 08:56:40.842 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 08:56:40.843 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 08:56:40.844 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 08:56:40.845 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 08:56:40.846 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 08:56:40.847 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 08:56:40.848 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 09:01:25.887 +00:00 [EROR] plugin:GameModeManager Cannot find mg_45 in map group list.
+2025-08-04 09:01:25.921 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode 45. No map list created.
+2025-08-04 09:01:25.923 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 09:01:25.924 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Armsrace. No map list created.
+2025-08-04 09:01:25.925 +00:00 [EROR] plugin:GameModeManager Cannot find mg_awp in map group list.
+2025-08-04 09:01:25.927 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Awp. No map list created.
+2025-08-04 09:01:25.928 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battle in map group list.
+2025-08-04 09:01:25.930 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle. No map list created.
+2025-08-04 09:01:25.931 +00:00 [EROR] plugin:GameModeManager Cannot find mg_battleroyale in map group list.
+2025-08-04 09:01:25.932 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Battle Royale. No map list created.
+2025-08-04 09:01:25.933 +00:00 [EROR] plugin:GameModeManager Cannot find mg_bhop in map group list.
+2025-08-04 09:01:25.935 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Bhop. No map list created.
+2025-08-04 09:01:25.937 +00:00 [EROR] plugin:GameModeManager Cannot find mg_Casual-1.6 in map group list.
+2025-08-04 09:01:25.938 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Casual 1.6. No map list created.
+2025-08-04 09:01:25.940 +00:00 [EROR] plugin:GameModeManager Cannot find mg_course in map group list.
+2025-08-04 09:01:25.942 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Course. No map list created.
+2025-08-04 09:01:25.944 +00:00 [EROR] plugin:GameModeManager Cannot find mg_deathrun in map group list.
+2025-08-04 09:01:25.945 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Deathrun. No map list created.
+2025-08-04 09:01:25.946 +00:00 [EROR] plugin:GameModeManager Cannot find mg_gg in map group list.
+2025-08-04 09:01:25.948 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode GG. No map list created.
+2025-08-04 09:01:25.949 +00:00 [EROR] plugin:GameModeManager Cannot find mg_he in map group list.
+2025-08-04 09:01:25.951 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode HE Only. No map list created.
+2025-08-04 09:01:25.952 +00:00 [EROR] plugin:GameModeManager Cannot find mg_hns in map group list.
+2025-08-04 09:01:25.953 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Hide N Seek. No map list created.
+2025-08-04 09:01:25.955 +00:00 [EROR] plugin:GameModeManager Cannot find mg_kz in map group list.
+2025-08-04 09:01:25.956 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode KreedZ. No map list created.
+2025-08-04 09:01:25.958 +00:00 [EROR] plugin:GameModeManager Cannot find mg_minigames in map group list.
+2025-08-04 09:01:25.959 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Minigames. No map list created.
+2025-08-04 09:01:25.961 +00:00 [EROR] plugin:GameModeManager Cannot find mg_scoutzknivez in map group list.
+2025-08-04 09:01:25.962 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode ScoutzKnivez. No map list created.
+2025-08-04 09:01:25.963 +00:00 [EROR] plugin:GameModeManager Cannot find mg_surf in map group list.
+2025-08-04 09:01:25.965 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Surf. No map list created.
+2025-08-04 09:01:25.966 +00:00 [EROR] plugin:GameModeManager Cannot find mg_soccer in map group list.
+2025-08-04 09:01:25.968 +00:00 [WARN] plugin:GameModeManager No mapgroups found for mode Soccer. No map list created.
+2025-08-04 23:04:37.544 +00:00 [WARN] plugin:GameModeManager Skipping alltalk_on.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.575 +00:00 [WARN] plugin:GameModeManager Skipping bhop_off.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.576 +00:00 [WARN] plugin:GameModeManager Skipping bhop_on.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.577 +00:00 [WARN] plugin:GameModeManager Skipping bots_ar.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.578 +00:00 [WARN] plugin:GameModeManager Skipping bots_buy.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.579 +00:00 [WARN] plugin:GameModeManager Skipping bots_dm.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.580 +00:00 [WARN] plugin:GameModeManager Skipping bots_dont_buy.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.581 +00:00 [WARN] plugin:GameModeManager Skipping course.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.584 +00:00 [WARN] plugin:GameModeManager Skipping inventory_simulator.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.585 +00:00 [WARN] plugin:GameModeManager Skipping kz_on.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.586 +00:00 [WARN] plugin:GameModeManager Skipping map_voting.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.587 +00:00 [WARN] plugin:GameModeManager Skipping movement_restore.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.588 +00:00 [WARN] plugin:GameModeManager Skipping movement_unlock.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.589 +00:00 [WARN] plugin:GameModeManager Skipping no_bots.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.590 +00:00 [WARN] plugin:GameModeManager Skipping no_buying.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.591 +00:00 [WARN] plugin:GameModeManager Skipping no_drop_weapons.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.591 +00:00 [WARN] plugin:GameModeManager Skipping one_round.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.592 +00:00 [WARN] plugin:GameModeManager Skipping quake_sounds.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.593 +00:00 [WARN] plugin:GameModeManager Skipping random_spawns.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.594 +00:00 [WARN] plugin:GameModeManager Skipping surf_off.cfg because its missing the correct prefix.
+2025-08-04 23:04:37.595 +00:00 [WARN] plugin:GameModeManager Skipping surf_on.cfg because its missing the correct prefix.
+2025-08-04 23:06:02.759 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:02.761 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:02.787 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:02.789 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:03.354 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:03.355 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:03.558 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:03.559 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:03.783 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:03.784 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:03.992 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:03.994 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:04.216 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:04.217 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:04.441 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:04.443 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:04.677 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:04.681 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:04.893 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:04.895 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:05.155 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:05.157 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:05.358 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:05.359 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:05.573 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:05.575 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:05.755 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:05.756 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:05.970 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:05.973 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:06.175 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:06.177 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:06.388 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:06.389 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:06.598 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:06.599 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:06.829 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:06.831 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:07.035 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:07.037 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:07.251 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:07.254 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:07.461 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:07.462 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:07.674 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:07.675 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:07.883 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:07.884 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:08.094 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:08.095 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:08.310 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:08.312 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:08.527 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:08.528 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:08.731 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:08.732 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:08.948 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:08.950 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:09.154 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:09.156 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:09.363 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:09.364 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:29.705 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:29.706 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:09.794 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:09.795 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:10.001 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:10.002 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:10.210 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:10.213 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:10.417 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:10.418 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:10.633 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:10.634 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:10.838 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:10.840 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:11.049 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:11.050 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:11.256 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:11.258 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:11.470 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:11.471 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:31.810 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:31.811 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:11.901 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:11.903 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:12.109 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:12.110 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:12.318 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:12.319 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:12.530 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:12.532 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:12.744 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:12.746 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:12.951 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:12.953 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:13.162 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:13.164 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:13.372 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:13.374 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:13.586 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:13.588 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:13.793 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:13.794 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:14.017 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:14.018 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:14.228 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:14.229 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:14.526 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:14.528 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:14.733 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:14.734 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:14.960 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:14.962 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:15.166 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:15.168 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:15.374 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:15.375 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:15.571 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:15.572 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:15.789 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:15.791 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:15.999 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:16.001 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:16.213 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:16.214 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:16.418 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:16.419 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:36.768 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:36.769 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:16.855 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:16.857 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:17.071 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:17.074 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:17.281 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:17.282 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:17.493 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:17.495 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:17.704 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:17.705 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:17.912 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:17.915 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:18.121 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:18.123 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:18.335 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:18.337 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:18.542 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:18.544 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:18.754 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:18.756 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:18.971 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:18.972 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:19.181 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:19.182 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:19.387 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:19.388 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:19.602 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:19.603 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:19.806 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:19.808 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:20.016 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:20.017 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:20.221 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:20.223 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:20.434 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:20.436 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:20.635 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:20.636 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:20.846 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:20.847 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:21.047 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:21.049 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:21.261 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:21.263 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:21.470 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:21.471 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:41.817 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:41.819 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:21.902 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:21.903 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:22.112 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:22.113 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:22.325 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:22.327 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:22.541 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:22.543 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:22.745 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:22.747 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:22.960 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:22.962 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:23.163 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:23.164 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:23.374 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:23.376 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:23.616 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:23.617 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:23.832 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:23.834 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:24.042 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:24.043 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:24.257 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:24.259 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:24.463 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:24.465 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:24.712 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:24.714 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:24.940 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:24.941 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:25.252 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:25.253 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:25.455 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:25.456 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:26.025 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:26.026 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:26.195 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:26.196 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:26.620 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:26.623 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:26.796 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:06:26.797 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:06:27.097 +00:00 [WARN] plugin:GameModeManager The mode is already set to Retakes.
+2025-08-04 23:10:05.625 +00:00 [WARN] plugin:GameModeManager Skipping alltalk_on.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.646 +00:00 [WARN] plugin:GameModeManager Skipping bhop_off.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.647 +00:00 [WARN] plugin:GameModeManager Skipping bhop_on.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.648 +00:00 [WARN] plugin:GameModeManager Skipping bots_ar.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.649 +00:00 [WARN] plugin:GameModeManager Skipping bots_buy.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.650 +00:00 [WARN] plugin:GameModeManager Skipping bots_dm.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.651 +00:00 [WARN] plugin:GameModeManager Skipping bots_dont_buy.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.653 +00:00 [WARN] plugin:GameModeManager Skipping course.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.657 +00:00 [WARN] plugin:GameModeManager Skipping inventory_simulator.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.658 +00:00 [WARN] plugin:GameModeManager Skipping kz_on.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.659 +00:00 [WARN] plugin:GameModeManager Skipping map_voting.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.660 +00:00 [WARN] plugin:GameModeManager Skipping movement_restore.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.661 +00:00 [WARN] plugin:GameModeManager Skipping movement_unlock.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.662 +00:00 [WARN] plugin:GameModeManager Skipping no_bots.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.663 +00:00 [WARN] plugin:GameModeManager Skipping no_buying.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.664 +00:00 [WARN] plugin:GameModeManager Skipping no_drop_weapons.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.665 +00:00 [WARN] plugin:GameModeManager Skipping one_round.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.666 +00:00 [WARN] plugin:GameModeManager Skipping quake_sounds.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.667 +00:00 [WARN] plugin:GameModeManager Skipping random_spawns.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.668 +00:00 [WARN] plugin:GameModeManager Skipping surf_off.cfg because its missing the correct prefix.
+2025-08-04 23:10:05.669 +00:00 [WARN] plugin:GameModeManager Skipping surf_on.cfg because its missing the correct prefix.
+2025-08-04 23:10:50.125 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:50.127 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:50.153 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:50.155 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:50.803 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:50.805 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:51.026 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:51.027 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:51.244 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:51.246 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:51.458 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:51.459 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:51.692 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:51.694 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:51.919 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:51.921 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:12.343 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:12.344 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:52.428 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:52.429 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:52.644 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:52.645 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:52.865 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:52.867 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:53.085 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:53.086 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:53.293 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:53.295 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:53.507 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:53.508 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:53.714 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:53.716 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:53.927 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:53.928 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:54.147 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:54.148 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:54.365 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:54.367 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:54.577 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:54.578 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:54.846 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:54.848 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:55.058 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:55.060 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:55.282 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:55.284 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:55.496 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:55.498 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:55.715 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:55.718 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:55.922 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:55.923 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:56.142 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:56.143 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:56.343 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:56.345 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:56.555 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:56.558 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:56.765 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:56.767 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:56.979 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:56.980 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:17.339 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:17.341 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:57.427 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:57.429 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:57.634 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:57.635 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:57.849 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:57.851 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:58.056 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:58.058 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:58.266 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:58.268 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:58.472 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:58.473 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:58.693 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:58.695 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:58.903 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:58.904 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:59.116 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:59.118 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:59.326 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:59.328 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:59.545 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:59.547 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:59.755 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:59.757 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:10:59.967 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:10:59.969 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:00.176 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:00.177 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:00.389 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:00.391 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:00.590 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:00.591 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:00.805 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:00.807 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:01.023 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:01.025 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:01.242 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:01.244 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:01.453 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:01.454 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:01.670 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:01.672 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:01.877 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:01.878 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:02.091 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:22.228 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:02.303 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:02.305 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:02.520 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:02.522 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:02.724 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:02.725 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:02.935 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:02.937 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:03.141 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:03.142 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:03.358 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:03.360 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:03.569 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:03.571 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:03.799 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:03.801 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:04.172 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:04.174 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:04.463 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:04.464 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:04.669 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:04.670 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:04.885 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:04.887 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:05.089 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:05.091 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:05.305 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:05.307 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:05.500 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:05.501 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:05.711 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:05.713 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:05.919 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:05.920 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:06.181 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:06.183 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:06.377 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:06.378 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:06.596 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:06.597 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:06.800 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:06.801 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:07.011 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:07.012 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:27.349 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:27.351 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:07.448 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:07.450 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:07.651 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:07.653 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:07.864 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:07.865 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:08.078 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:08.080 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:08.290 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:08.293 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:08.498 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:08.499 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:08.707 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:08.709 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:08.916 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:08.917 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:09.131 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:09.133 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:09.339 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:09.340 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:29.689 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:29.691 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:09.769 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:09.771 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:09.986 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:09.987 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:10.193 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:10.194 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:10.412 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:10.413 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:10.616 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:10.617 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:10.834 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:10.836 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:11.039 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:11.040 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:11.256 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:11.258 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:11.461 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:11.462 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:11.678 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:11.679 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:11.887 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:11.888 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:32.240 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:32.241 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:12.436 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:12.437 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:12.689 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:12.691 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:13.056 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:13.057 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:13.342 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:13.344 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:13.533 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:13.534 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:14.046 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:14.048 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:14.185 +00:00 [INFO] plugin:GameModeManager Current mode: Retakes
+2025-08-04 23:11:14.186 +00:00 [INFO] plugin:GameModeManager New mode: Retakes
+2025-08-04 23:11:14.421 +00:00 [WARN] plugin:GameModeManager The mode is already set to Retakes.
+2025-08-04 23:14:49.703 +00:00 [WARN] plugin:GameModeManager Skipping alltalk_on.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.726 +00:00 [WARN] plugin:GameModeManager Skipping bhop_off.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.727 +00:00 [WARN] plugin:GameModeManager Skipping bhop_on.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.728 +00:00 [WARN] plugin:GameModeManager Skipping bots_ar.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.729 +00:00 [WARN] plugin:GameModeManager Skipping bots_buy.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.730 +00:00 [WARN] plugin:GameModeManager Skipping bots_dm.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.731 +00:00 [WARN] plugin:GameModeManager Skipping bots_dont_buy.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.732 +00:00 [WARN] plugin:GameModeManager Skipping course.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.736 +00:00 [WARN] plugin:GameModeManager Skipping inventory_simulator.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.737 +00:00 [WARN] plugin:GameModeManager Skipping kz_on.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.738 +00:00 [WARN] plugin:GameModeManager Skipping map_voting.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.739 +00:00 [WARN] plugin:GameModeManager Skipping movement_restore.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.740 +00:00 [WARN] plugin:GameModeManager Skipping movement_unlock.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.741 +00:00 [WARN] plugin:GameModeManager Skipping no_bots.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.741 +00:00 [WARN] plugin:GameModeManager Skipping no_buying.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.742 +00:00 [WARN] plugin:GameModeManager Skipping no_drop_weapons.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.743 +00:00 [WARN] plugin:GameModeManager Skipping one_round.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.744 +00:00 [WARN] plugin:GameModeManager Skipping quake_sounds.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.745 +00:00 [WARN] plugin:GameModeManager Skipping random_spawns.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.746 +00:00 [WARN] plugin:GameModeManager Skipping surf_off.cfg because its missing the correct prefix.
+2025-08-04 23:14:49.747 +00:00 [WARN] plugin:GameModeManager Skipping surf_on.cfg because its missing the correct prefix.

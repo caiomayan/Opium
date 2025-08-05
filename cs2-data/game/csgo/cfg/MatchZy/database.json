@@ -1,0 +1,8 @@
+{
+    "DatabaseType": "MySQL",
+    "MySqlHost": "cs2-db",
+    "MySqlDatabase": "db",
+    "MySqlUsername": "root",
+    "MySqlPassword": "malanbutiJa37@",
+    "MySqlPort": 3306
+}

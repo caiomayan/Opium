@@ -1,0 +1,158 @@
+2025-08-08 23:00:35.987 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-08 23:00:36.107 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-08 23:00:36.120 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-08 23:00:36.132 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-08 23:00:36.134 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-08 23:00:36.160 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-08 23:00:36.161 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-08 23:00:36.164 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-08 23:00:36.886 +00:00 [INFO] (cssharp:PluginContext) Loading plugin AFKManager
+2025-08-08 23:00:36.937 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin AFK Manager
+2025-08-08 23:00:37.447 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-CustomVotes
+2025-08-08 23:00:37.540 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-08 23:00:37.572 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-08 23:00:37.574 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-08 23:00:37.575 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Custom Votes
+2025-08-08 23:00:37.791 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-08 23:00:38.290 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-08 23:00:38.366 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2_ExecAfter
+2025-08-08 23:00:38.372 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2_ExecAfter
+2025-08-08 23:00:38.589 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Plugin is up to date
+2025-08-08 23:00:39.230 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-08 23:00:39.560 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Discord Utilities
+2025-08-08 23:00:39.648 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-08 23:00:39.673 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-08 23:00:39.736 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-08 23:00:39.753 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-08 23:00:39.845 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-08 23:00:39.887 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-08 23:00:39.960 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-08 23:00:39.979 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-08 23:00:40.051 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-08 23:00:40.073 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-08 23:00:40.216 +00:00 [INFO] (cssharp:PluginContext) Loading plugin GameModeManager
+2025-08-08 23:00:40.361 +00:00 [WARN] plugin:GameModeManager Skipping alltalk_on.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.384 +00:00 [WARN] plugin:GameModeManager Skipping bhop_off.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.384 +00:00 [WARN] plugin:GameModeManager Skipping bhop_on.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.385 +00:00 [WARN] plugin:GameModeManager Skipping bots_ar.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.386 +00:00 [WARN] plugin:GameModeManager Skipping bots_buy.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.388 +00:00 [WARN] plugin:GameModeManager Skipping bots_dm.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.389 +00:00 [WARN] plugin:GameModeManager Skipping bots_dont_buy.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.390 +00:00 [WARN] plugin:GameModeManager Skipping course.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.393 +00:00 [WARN] plugin:GameModeManager Skipping inventory_simulator.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.394 +00:00 [WARN] plugin:GameModeManager Skipping kz_on.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.395 +00:00 [WARN] plugin:GameModeManager Skipping map_voting.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.396 +00:00 [WARN] plugin:GameModeManager Skipping movement_restore.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.397 +00:00 [WARN] plugin:GameModeManager Skipping movement_unlock.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.398 +00:00 [WARN] plugin:GameModeManager Skipping no_bots.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.399 +00:00 [WARN] plugin:GameModeManager Skipping no_buying.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.400 +00:00 [WARN] plugin:GameModeManager Skipping no_drop_weapons.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.400 +00:00 [WARN] plugin:GameModeManager Skipping one_round.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.401 +00:00 [WARN] plugin:GameModeManager Skipping quake_sounds.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.402 +00:00 [WARN] plugin:GameModeManager Skipping random_spawns.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.403 +00:00 [WARN] plugin:GameModeManager Skipping surf_off.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.404 +00:00 [WARN] plugin:GameModeManager Skipping surf_on.cfg because its missing the correct prefix.
+2025-08-08 23:00:40.408 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin GameModeManager
+2025-08-08 23:00:40.488 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InstadefusePlugin
+2025-08-08 23:00:40.506 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Instadefuse Plugin
+2025-08-08 23:00:40.666 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-08 23:00:40.814 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-08 23:00:40.914 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-08 23:00:40.945 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-08 23:00:41.054 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-08 23:00:41.075 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-08 23:00:41.187 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-08 23:00:41.211 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-08 23:00:41.295 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-08 23:00:41.486 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-08 23:01:05.027 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-08 23:01:05.047 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-08 23:00:41.813 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-08 23:00:41.835 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-08 23:00:41.902 +00:00 [INFO] (cssharp:PluginContext) Loading plugin WeaponRestrict
+2025-08-08 23:00:41.938 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin WeaponRestrict
+2025-08-08 23:00:42.053 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-08 23:00:42.054 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-08 23:00:42.056 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-08 23:00:42.057 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-08 23:00:42.058 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-08 23:00:42.059 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-08 23:00:42.060 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-08 23:00:42.061 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-08 23:00:42.062 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-08 23:00:42.063 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-08 23:00:42.063 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-08 23:00:42.064 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-08 23:00:42.065 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-08 23:00:42.066 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-08 23:00:42.067 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-08 23:00:42.068 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-08 23:00:42.069 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-08 23:00:42.069 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-08 23:00:42.070 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-08 23:00:42.071 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-08 23:00:42.072 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-08 23:00:42.072 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-08 23:00:42.073 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-08 23:00:42.074 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-08 23:00:42.075 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-08 23:00:42.076 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-08 23:00:42.077 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-08 23:00:42.078 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-08 23:00:42.078 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-08 23:00:42.079 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-08 23:00:42.080 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-08 23:00:42.081 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-08 23:00:42.082 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-08 23:00:42.083 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-08 23:00:42.083 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-08 23:00:42.084 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-08 23:00:42.085 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-08 23:00:42.086 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-08 23:00:42.087 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-08 23:00:42.088 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-08 23:00:42.088 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-08 23:00:42.089 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-08 23:00:42.090 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-08 23:00:42.091 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-08 23:00:42.091 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-08 23:00:42.092 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-08 23:00:42.093 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-08 23:00:42.094 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-08 23:00:42.095 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-08 23:00:42.095 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-08 23:00:42.096 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-08 23:00:42.097 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-08 23:00:42.098 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-08 23:00:42.099 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-08 23:00:42.100 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-08 23:00:42.101 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-08 23:00:42.102 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-08 23:00:42.103 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-08 23:00:42.105 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-08 23:00:42.106 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-08 23:00:42.107 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-08 23:00:42.108 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-08 23:00:42.109 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-08 23:00:42.110 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-08 23:00:55.576 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for de_mirage (Limits: [weapon_awp, 1], Quotas: )
+2025-08-08 23:00:57.005 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded server with ip 177.37.142.17
+2025-08-08 23:00:57.139 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-08 23:00:58.574 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-08 23:01:00.580 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-08 23:01:00.658 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-08 23:01:01.963 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-08 23:01:27.612 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-08 23:15:33.107 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101

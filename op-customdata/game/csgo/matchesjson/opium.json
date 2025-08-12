@@ -1,0 +1,38 @@
+{
+  "matchid": 0,
+  "team1": {
+    "name": "Op",
+    "players": {
+      "76561199095180322": "tensai",
+      "76561199504332272": "henry",
+      "76561198320410283": "mtk1",
+      "76561198426634176": "ZEDZ",
+      "76561199094258177": "Renan"
+    }
+  },
+  "team2": {
+    "name": "???",
+    "players": {}
+  },
+  "num_maps": 3,
+  "maplist": [
+    "de_mirage",
+    "de_anubis",
+    "de_ancient"
+  ],
+  "map_sides": [
+    "knife",
+    "knife",
+    "knife"
+  ],
+  "spectators": {
+    "players": {}
+  },
+  "clinch_series": true,
+  "players_per_team": 5,
+  "cvars": {
+    "hostname": "Opium @ ÓPIO",
+    "mp_friendlyfire": "1",
+    "exec_after_map_start": "exec csgo/matchesjson/teamlogo.cfg"
+  }
+}

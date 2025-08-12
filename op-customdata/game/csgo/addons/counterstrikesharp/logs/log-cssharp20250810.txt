@@ -1,0 +1,966 @@
+2025-08-10 01:33:17.937 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-10 01:33:18.061 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-10 01:33:18.075 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-10 01:33:18.088 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-10 01:33:18.090 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-10 01:33:18.115 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 01:33:18.116 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-10 01:33:18.119 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-10 01:33:18.843 +00:00 [INFO] (cssharp:PluginContext) Loading plugin AFKManager
+2025-08-10 01:33:18.899 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin AFK Manager
+2025-08-10 01:33:19.422 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-CustomVotes
+2025-08-10 01:33:19.554 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Custom Votes
+2025-08-10 01:33:19.779 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-10 01:33:20.293 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-10 01:33:20.368 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2_ExecAfter
+2025-08-10 01:33:20.374 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2_ExecAfter
+2025-08-10 01:33:21.222 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-10 01:33:21.551 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Discord Utilities
+2025-08-10 01:33:21.638 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-10 01:33:21.665 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-10 01:33:21.728 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-10 01:33:21.745 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-10 01:33:21.846 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-10 01:33:21.888 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-10 01:33:21.963 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-10 01:33:21.982 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-10 01:33:22.055 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-10 01:33:22.079 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-10 01:33:22.252 +00:00 [INFO] (cssharp:PluginContext) Loading plugin GameModeManager
+2025-08-10 01:33:22.444 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin GameModeManager
+2025-08-10 01:33:22.528 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InstadefusePlugin
+2025-08-10 01:33:22.547 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Instadefuse Plugin
+2025-08-10 01:33:22.700 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-10 01:33:22.855 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-10 01:33:22.957 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-10 01:33:22.988 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-10 01:33:23.100 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-10 01:33:23.125 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-10 01:33:23.239 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-10 01:33:23.263 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-10 01:33:23.350 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-10 01:33:23.544 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-10 01:33:23.642 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-10 01:33:23.663 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-10 01:33:23.884 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-10 01:33:23.905 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-10 01:33:23.971 +00:00 [INFO] (cssharp:PluginContext) Loading plugin WeaponRestrict
+2025-08-10 01:33:24.009 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin WeaponRestrict
+2025-08-10 01:33:40.950 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 01:33:43.141 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 01:33:44.445 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 01:33:46.637 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 01:35:16.276 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 01:35:44.125 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 01:38:28.724 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 01:39:41.794 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 01:43:05.609 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 01:43:19.140 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 01:45:51.485 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-10 01:45:51.599 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-10 01:45:51.612 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-10 01:45:51.618 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-10 01:45:51.620 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-10 01:45:51.633 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 01:45:51.635 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-10 01:45:51.637 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-10 01:45:52.230 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-CustomVotes
+2025-08-10 01:45:52.340 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Custom Votes
+2025-08-10 01:45:52.394 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-10 01:45:52.866 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-10 01:45:52.905 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2_ExecAfter
+2025-08-10 01:45:52.918 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2_ExecAfter
+2025-08-10 01:45:53.120 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-10 01:45:53.392 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Discord Utilities
+2025-08-10 01:45:53.430 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-10 01:45:53.449 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-10 01:45:53.475 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-10 01:45:53.484 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-10 01:45:53.509 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-10 01:45:53.539 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-10 01:45:53.562 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-10 01:45:53.575 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-10 01:45:53.597 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-10 01:45:53.613 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-10 01:45:53.646 +00:00 [INFO] (cssharp:PluginContext) Loading plugin GameModeManager
+2025-08-10 01:46:17.368 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin GameModeManager
+2025-08-10 01:46:17.397 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-10 01:45:53.997 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-10 01:45:54.459 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MatchZy
+2025-08-10 01:45:54.782 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MatchZy
+2025-08-10 01:45:54.889 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-10 01:45:54.915 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-10 01:45:54.943 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-10 01:45:54.956 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-10 01:45:54.982 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-10 01:45:54.996 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-10 01:45:55.021 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-10 01:45:55.102 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-10 01:45:55.134 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-10 01:45:55.148 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-10 01:46:09.989 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 01:46:12.166 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 01:46:13.581 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 01:46:15.758 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 01:51:16.897 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 01:54:43.337 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 01:58:35.747 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 02:00:20.024 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 02:02:45.378 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 02:05:38.453 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 03:30:43.125 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-10 03:30:43.283 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-10 03:30:43.296 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-10 03:30:43.308 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-10 03:30:43.310 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-10 03:30:43.335 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 03:30:43.337 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-10 03:30:43.339 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-10 03:30:55.211 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-10 03:30:55.761 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-10 03:30:56.693 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-10 03:30:57.036 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Discord Utilities
+2025-08-10 03:30:57.126 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-10 03:30:57.154 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-10 03:30:57.216 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-10 03:30:57.233 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-10 03:30:57.328 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-10 03:31:20.857 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-10 03:31:20.945 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-10 03:31:20.967 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-10 03:30:57.576 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-10 03:30:57.601 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-10 03:30:57.766 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-10 03:30:57.917 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-10 03:30:58.785 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MatchZy
+2025-08-10 03:30:59.136 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MatchZy
+2025-08-10 03:30:59.322 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-10 03:30:59.353 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-10 03:30:59.465 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-10 03:30:59.486 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-10 03:30:59.599 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-10 03:30:59.624 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-10 03:30:59.713 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-10 03:30:59.919 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-10 03:31:00.013 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-10 03:31:00.032 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-10 03:31:17.788 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 03:31:19.992 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 03:31:21.289 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 03:31:23.491 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 03:51:38.496 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 03:52:14.775 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 03:52:21.157 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 03:52:55.994 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 03:58:27.808 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 03:58:53.577 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 04:01:16.011 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 04:05:37.198 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 04:05:42.478 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 04:05:45.403 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 04:05:47.903 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 04:05:49.778 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 04:05:52.954 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 04:05:55.504 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 04:09:34.094 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-10 04:09:34.209 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-10 04:09:34.221 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-10 04:09:34.226 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-10 04:09:34.228 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-10 04:09:34.241 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 04:09:34.242 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-10 04:09:34.244 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-10 04:09:34.877 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-10 04:09:35.376 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-10 04:09:35.546 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-10 04:09:35.807 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Discord Utilities
+2025-08-10 04:09:35.840 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-10 04:09:35.857 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-10 04:09:35.880 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-10 04:09:59.390 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-10 04:09:59.413 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-10 04:09:59.443 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-10 04:09:59.465 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-10 04:09:59.476 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-10 04:09:59.500 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-10 04:09:59.514 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-10 04:09:59.539 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-10 04:09:36.191 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-10 04:09:36.221 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MatchZy
+2025-08-10 04:09:36.525 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MatchZy
+2025-08-10 04:09:36.570 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-10 04:09:36.592 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-10 04:09:36.617 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-10 04:09:36.632 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-10 04:09:36.655 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-10 04:09:36.668 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-10 04:09:36.691 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-10 04:09:36.768 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-10 04:09:36.795 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-10 04:09:36.808 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-10 04:10:14.528 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 04:09:53.225 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 04:09:54.615 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 04:09:56.817 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 04:42:54.816 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-10 04:42:54.926 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-10 04:42:54.942 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-10 04:42:54.949 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-10 04:42:54.951 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-10 04:42:54.970 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 04:42:54.971 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-10 04:42:54.974 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-10 04:42:55.571 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-10 04:42:56.072 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-10 04:42:56.242 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-10 04:42:56.476 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Discord Utilities
+2025-08-10 04:42:56.506 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-10 04:42:56.523 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-10 04:42:56.549 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-10 04:42:56.559 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-10 04:42:56.582 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-10 04:42:56.612 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-10 04:42:56.635 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-10 04:42:56.649 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-10 04:42:56.673 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-10 04:42:56.688 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-10 04:42:56.713 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-10 04:42:56.863 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-10 04:42:56.896 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MatchZy
+2025-08-10 04:42:57.201 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MatchZy
+2025-08-10 04:42:57.248 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-10 04:42:57.271 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-10 04:42:57.296 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-10 04:42:57.309 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-10 04:42:57.332 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-10 04:42:57.345 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-10 04:42:57.369 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-10 04:42:57.446 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-10 04:42:57.473 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-10 04:42:57.487 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-10 04:43:11.122 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 04:43:13.316 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 04:43:14.708 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 04:43:16.911 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 14:13:48.790 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-10 14:13:48.905 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-10 14:13:48.918 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-10 14:13:48.924 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-10 14:13:48.925 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-10 14:13:48.944 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 14:13:48.946 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-10 14:13:48.948 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-10 14:14:13.356 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-10 14:13:50.119 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-10 14:13:50.278 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-10 14:13:50.512 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Discord Utilities
+2025-08-10 14:13:50.540 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-10 14:13:50.557 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-10 14:13:50.578 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-10 14:13:50.588 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-10 14:13:50.610 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-10 14:13:50.638 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-10 14:13:50.660 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-10 14:13:50.671 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-10 14:13:50.692 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-10 14:13:50.706 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-10 14:13:50.729 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-10 14:13:50.876 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-10 14:13:50.903 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MatchZy
+2025-08-10 14:13:51.194 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MatchZy
+2025-08-10 14:13:51.238 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-10 14:13:51.260 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-10 14:13:51.283 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-10 14:13:51.295 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-10 14:13:51.317 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-10 14:13:51.330 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-10 14:13:51.352 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-10 14:13:51.428 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-10 14:13:51.456 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-10 14:13:51.468 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-10 14:14:05.521 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 14:14:07.741 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 14:14:09.130 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 14:14:11.336 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 14:26:59.054 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-10 14:26:59.164 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-10 14:26:59.177 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-10 14:26:59.182 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-10 14:26:59.183 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-10 14:26:59.197 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 14:26:59.198 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-10 14:26:59.200 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-10 14:26:59.841 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-10 14:27:00.292 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-10 14:27:00.457 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-10 14:27:01.469 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Discord Utilities
+2025-08-10 14:27:01.523 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-10 14:27:01.542 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-10 14:27:01.564 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-10 14:27:01.574 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-10 14:27:01.595 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-10 14:27:01.623 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-10 14:27:01.647 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-10 14:27:01.658 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-10 14:27:01.682 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-10 14:27:01.697 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-10 14:27:01.723 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-10 14:27:01.878 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-10 14:27:01.909 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MatchZy
+2025-08-10 14:27:02.221 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MatchZy
+2025-08-10 14:27:02.269 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-10 14:27:02.295 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-10 14:27:02.319 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-10 14:27:02.332 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-10 14:27:02.354 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-10 14:27:02.368 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-10 14:27:02.391 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-10 14:27:02.469 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-10 14:27:02.497 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-10 14:27:02.509 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-10 14:27:16.400 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 14:27:18.565 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 14:27:19.955 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 14:27:22.178 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 16:17:05.299 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 16:17:11.256 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 16:18:23.639 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 16:20:30.087 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 17:09:40.165 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentNullException: Schema target points to null. (Parameter 'handle')
+   at CS2_SimpleAdmin.Managers.PlayerManager.<>c__DisplayClass1_0.<LoadPlayerData>b__3()
+   at InvokeStub_Action.Invoke(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 17:10:08.760 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSayTeam(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 82
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 17:47:12.272 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-10 17:47:12.439 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-10 17:47:12.454 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-10 17:47:12.461 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-10 17:47:12.463 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-10 17:47:12.480 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 17:47:12.481 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-10 17:47:12.484 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-10 17:47:13.283 +00:00 [INFO] (cssharp:PluginContext) Loading plugin AFKManager
+2025-08-10 17:47:13.337 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin AFK Manager
+2025-08-10 17:47:13.507 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-10 17:47:14.024 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-10 17:47:14.220 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-10 17:47:14.512 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Discord Utilities
+2025-08-10 17:47:14.550 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-10 17:47:14.570 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-10 17:47:14.598 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-10 17:47:14.609 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-10 17:47:14.637 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-10 17:47:14.671 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-10 17:47:14.697 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-10 17:47:14.710 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-10 17:47:14.735 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-10 17:47:14.750 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-10 17:47:14.851 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InstadefusePlugin
+2025-08-10 17:47:14.872 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Instadefuse Plugin
+2025-08-10 17:47:14.897 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-10 17:47:15.061 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-10 17:47:15.092 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-10 17:47:15.119 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-10 17:47:15.145 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-10 17:47:15.159 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-10 17:47:15.184 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-10 17:47:15.199 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-10 17:47:15.228 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-10 17:47:15.315 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-10 17:47:15.352 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-10 17:47:15.370 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-10 17:47:15.666 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-10 17:47:15.691 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-10 17:47:15.768 +00:00 [INFO] (cssharp:PluginContext) Loading plugin WeaponRestrict
+2025-08-10 17:47:15.813 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin WeaponRestrict
+2025-08-10 17:47:31.117 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 17:47:33.471 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 17:47:34.874 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 17:47:37.060 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 18:44:34.520 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-10 18:44:34.633 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-10 18:44:34.645 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-10 18:44:34.651 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-10 18:44:34.653 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-10 18:44:34.671 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 18:44:34.672 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-10 18:44:34.675 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-10 18:44:35.136 +00:00 [INFO] (cssharp:PluginContext) Loading plugin AFKManager
+2025-08-10 18:44:35.176 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin AFK Manager
+2025-08-10 18:44:35.320 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-10 18:44:35.808 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-10 18:44:35.975 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-10 18:45:00.132 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Discord Utilities
+2025-08-10 18:45:00.164 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-10 18:45:00.183 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-10 18:45:00.205 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-10 18:45:00.214 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-10 18:45:00.236 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-10 18:45:00.265 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-10 18:44:36.374 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-10 18:44:36.388 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-10 18:44:36.411 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-10 18:44:36.426 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-10 18:44:36.450 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InstadefusePlugin
+2025-08-10 18:44:36.463 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Instadefuse Plugin
+2025-08-10 18:44:36.487 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-10 18:44:36.637 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-10 18:44:36.667 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-10 18:44:36.692 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-10 18:44:36.717 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-10 18:44:36.731 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-10 18:44:36.754 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-10 18:44:36.768 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-10 18:44:36.792 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-10 18:44:36.868 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-10 18:44:36.896 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-10 18:44:36.908 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-10 18:44:36.937 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-10 18:44:36.947 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-10 18:44:36.966 +00:00 [INFO] (cssharp:PluginContext) Loading plugin WeaponRestrict
+2025-08-10 18:44:36.995 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin WeaponRestrict
+2025-08-10 18:44:49.839 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 18:44:51.921 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 18:44:53.432 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 18:44:55.632 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-10 18:55:35.698 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 18:55:44.711 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 18:55:49.992 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:12:31.689 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:15:40.909 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:31:41.218 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:34:46.968 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:45:12.603 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:45:17.821 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSayTeam(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 82
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:45:20.301 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:45:24.256 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:45:24.350 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:45:30.843 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-10 19:56:11.414 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.ArgumentException: The value cannot be an empty string. (Parameter 'oldValue')
+   at System.ArgumentException.ThrowNullOrEmptyException(String argument, String paramName)
+   at System.String.Replace(String oldValue, String newValue)
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 53
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101

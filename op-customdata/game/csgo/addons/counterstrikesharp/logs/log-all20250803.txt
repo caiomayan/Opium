@@ -1,0 +1,408 @@
+2025-08-03 20:07:17.539 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-03 20:07:19.682 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-03 20:07:19.750 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-03 20:07:19.782 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 8 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-03 20:07:19.787 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-03 20:07:19.793 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-08-03 20:07:19.796 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-03 20:07:19.802 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-03 20:07:55.901 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-03 20:07:56.487 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-03 20:07:56.778 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Plugin is up to date
+2025-08-03 20:07:57.181 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-03 20:07:57.296 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/InventorySimulator/InventorySimulator.dll
+System.TypeInitializationException: The type initializer for 'CounterStrikeSharp.API.Modules.Memory.VirtualFunctions' threw an exception.
+ ---> System.ArgumentException: Method StateChanged not found in gamedata.json
+   at CounterStrikeSharp.API.Core.GameData.GetSignature(String key) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/GameData.cs:line 94
+   at CounterStrikeSharp.API.Modules.Memory.VirtualFunctions..cctor() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Modules/Memory/VirtualFunctions.cs:line 90
+   --- End of inner exception stack trace ---
+   at InventorySimulator.InventorySimulator.Load(Boolean hotReload) in /home/runner/work/cs2-inventory-simulator-plugin/cs2-inventory-simulator-plugin/source/InventorySimulator/InventorySimulator.cs:line 27
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 218
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-08-03 20:07:57.941 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-03 20:07:57.973 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-03 20:07:58.566 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-03 20:07:58.850 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-03 20:07:59.587 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-03 20:07:59.623 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-03 20:07:59.775 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-03 20:07:59.777 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-03 20:07:59.778 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-03 20:07:59.779 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-03 20:07:59.780 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-03 20:07:59.781 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-03 20:07:59.782 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-03 20:07:59.783 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-03 20:07:59.784 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-03 20:07:59.785 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-03 20:07:59.785 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-03 20:07:59.786 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-03 20:07:59.787 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-03 20:07:59.788 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-03 20:07:59.789 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-03 20:07:59.790 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-03 20:07:59.791 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-03 20:07:59.791 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-03 20:07:59.794 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-03 20:07:59.795 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-03 20:07:59.796 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-03 20:07:59.797 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-03 20:07:59.798 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-03 20:07:59.799 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-03 20:07:59.800 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-03 20:07:59.801 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-03 20:07:59.802 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-03 20:07:59.802 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-03 20:07:59.803 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-03 20:07:59.805 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-03 20:07:59.806 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-03 20:07:59.807 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-03 20:07:59.808 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-03 20:07:59.809 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-03 20:07:59.809 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-03 20:07:59.810 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-03 20:07:59.812 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-03 20:07:59.812 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-03 20:07:59.813 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-03 20:07:59.814 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-03 20:07:59.815 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-03 20:07:59.816 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-03 20:07:59.817 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-03 20:07:59.817 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-03 20:07:59.818 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-03 20:07:59.819 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-03 20:07:59.820 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-03 20:07:59.820 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-03 20:07:59.821 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-03 20:07:59.822 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-03 20:07:59.823 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-03 20:07:59.824 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-03 20:07:59.825 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-03 20:07:59.826 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-03 20:07:59.827 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-03 20:07:59.827 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-03 20:07:59.828 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-03 20:07:59.829 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-03 20:07:59.830 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-03 20:07:59.831 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-03 20:07:59.832 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-03 20:07:59.833 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-03 20:07:59.833 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-03 20:07:59.834 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-03 20:08:09.719 +00:00 [EROR] plugin:CS2-SimpleAdmin (RELEASE) Detected setting "sv_hibernate_when_empty true", set false to make plugin work properly
+2025-08-03 21:12:57.038 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-03 21:12:57.164 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-03 21:12:57.178 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-03 21:12:57.183 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-03 21:12:57.185 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-03 21:12:57.188 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-08-03 21:12:57.189 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-03 21:12:57.191 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-03 21:12:57.897 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-03 21:12:58.501 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-03 21:12:58.532 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-03 21:12:58.644 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/InventorySimulator/InventorySimulator.dll
+System.TypeInitializationException: The type initializer for 'CounterStrikeSharp.API.Modules.Memory.VirtualFunctions' threw an exception.
+ ---> System.ArgumentException: Method StateChanged not found in gamedata.json
+   at CounterStrikeSharp.API.Core.GameData.GetSignature(String key) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/GameData.cs:line 94
+   at CounterStrikeSharp.API.Modules.Memory.VirtualFunctions..cctor() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Modules/Memory/VirtualFunctions.cs:line 90
+   --- End of inner exception stack trace ---
+   at InventorySimulator.InventorySimulator.Load(Boolean hotReload) in /home/runner/work/cs2-inventory-simulator-plugin/cs2-inventory-simulator-plugin/source/InventorySimulator/InventorySimulator.cs:line 27
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 218
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-08-03 21:12:58.688 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-03 21:12:58.710 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-03 21:12:58.734 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-03 21:12:58.755 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Plugin is up to date
+2025-08-03 21:12:58.813 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-03 21:12:58.839 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-03 21:12:58.856 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-03 21:12:59.000 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-03 21:12:59.002 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-03 21:12:59.003 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-03 21:12:59.004 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-03 21:12:59.006 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-03 21:12:59.007 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-03 21:12:59.008 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-03 21:12:59.010 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-03 21:12:59.011 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-03 21:12:59.012 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-03 21:12:59.013 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-03 21:12:59.015 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-03 21:12:59.016 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-03 21:12:59.017 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-03 21:12:59.018 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-03 21:12:59.019 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-03 21:12:59.020 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-03 21:12:59.021 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-03 21:12:59.022 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-03 21:12:59.023 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-03 21:12:59.024 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-03 21:12:59.025 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-03 21:12:59.026 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-03 21:12:59.027 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-03 21:12:59.028 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-03 21:12:59.030 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-03 21:12:59.031 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-03 21:12:59.032 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-03 21:12:59.033 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-03 21:12:59.034 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-03 21:12:59.035 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-03 21:12:59.036 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-03 21:12:59.037 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-03 21:12:59.039 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-03 21:12:59.040 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-03 21:12:59.041 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-03 21:12:59.042 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-03 21:12:59.043 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-03 21:12:59.044 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-03 21:12:59.045 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-03 21:12:59.046 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-03 21:12:59.047 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-03 21:12:59.048 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-03 21:12:59.049 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-03 21:12:59.050 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-03 21:12:59.051 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-03 21:12:59.053 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-03 21:12:59.054 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-03 21:12:59.055 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-03 21:12:59.056 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-03 21:12:59.057 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-03 21:12:59.058 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-03 21:12:59.059 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-03 21:12:59.060 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-03 21:12:59.061 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-03 21:12:59.062 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-03 21:12:59.063 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-03 21:12:59.064 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-03 21:12:59.065 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-03 21:12:59.066 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-03 21:12:59.067 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-03 21:12:59.068 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-03 21:12:59.069 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-03 21:12:59.070 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-03 21:13:08.480 +00:00 [EROR] plugin:CS2-SimpleAdmin (RELEASE) Detected setting "sv_hibernate_when_empty true", set false to make plugin work properly
+2025-08-03 21:19:29.063 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-03 21:19:29.186 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-03 21:19:29.201 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-03 21:19:29.207 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-03 21:19:29.209 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-03 21:19:29.212 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-08-03 21:19:29.213 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-03 21:19:29.215 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-03 21:19:29.819 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-03 21:19:30.344 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-03 21:19:30.377 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-03 21:19:50.072 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-03 21:19:50.099 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-03 21:19:50.121 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-03 21:19:50.149 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-03 21:19:50.131 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Plugin is up to date
+2025-08-03 21:19:30.706 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-03 21:19:30.731 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-03 21:19:30.750 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-03 21:19:30.887 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-03 21:19:30.889 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-03 21:19:30.890 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-03 21:19:30.891 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-03 21:19:30.892 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-03 21:19:30.893 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-03 21:19:30.894 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-03 21:19:30.896 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-03 21:19:30.897 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-03 21:19:30.898 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-03 21:19:30.899 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-03 21:19:30.900 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-03 21:19:30.901 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-03 21:19:30.902 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-03 21:19:30.903 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-03 21:19:30.904 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-03 21:19:30.905 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-03 21:19:30.907 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-03 21:19:30.908 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-03 21:19:30.909 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-03 21:19:30.910 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-03 21:19:30.911 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-03 21:19:30.912 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-03 21:19:30.913 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-03 21:19:30.915 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-03 21:19:30.916 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-03 21:19:30.917 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-03 21:19:30.918 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-03 21:19:30.920 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-03 21:19:30.921 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-03 21:19:30.922 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-03 21:19:30.923 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-03 21:19:30.924 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-03 21:19:30.926 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-03 21:19:30.927 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-03 21:19:30.928 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-03 21:19:30.929 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-03 21:19:30.930 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-03 21:19:30.931 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-03 21:19:30.933 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-03 21:19:30.934 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-03 21:19:30.935 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-03 21:19:30.936 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-03 21:19:30.938 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-03 21:19:30.939 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-03 21:19:30.941 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-03 21:19:30.942 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-03 21:19:30.943 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-03 21:19:30.944 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-03 21:19:30.945 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-03 21:19:30.946 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-03 21:19:30.947 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-03 21:19:30.948 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-03 21:19:30.950 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-03 21:19:30.951 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-03 21:19:30.952 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-03 21:19:30.953 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-03 21:19:30.954 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-03 21:19:30.956 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-03 21:19:30.957 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-03 21:19:30.958 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-03 21:19:30.959 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-03 21:19:30.960 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-03 21:19:30.961 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-03 21:19:40.144 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded server with ip 177.37.142.17
+2025-08-03 21:19:40.778 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-03 21:19:42.145 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 0 admins.
+2025-08-03 21:19:44.134 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-03 21:19:44.307 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 0 admins.
+2025-08-03 21:20:05.047 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 0 admins.
+2025-08-03 21:19:47.723 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 0 admins.
+2025-08-03 21:42:21.107 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite A!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:22.202 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite B!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:23.318 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite B!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:24.429 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite A!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:25.535 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite B!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:26.650 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite A!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:27.971 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite B!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:29.066 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite A!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:30.176 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite B!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:31.285 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite B!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:32.388 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite B!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-03 21:42:33.503 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: There are not enough spawns in the map config for Bombsite B!
+   at RetakesPlugin.Modules.Managers.SpawnManager.HandleRoundSpawns(Bombsite bombsite, HashSet`1 players) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/Modules/Managers/SpawnManager.cs:line 75
+   at RetakesPlugin.RetakesPlugin.OnRoundStart(EventRoundStart event, GameEventInfo info) in /home/runner/work/cs2-retakes/cs2-retakes/RetakesPlugin/RetakesPlugin.cs:line 736
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101

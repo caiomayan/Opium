@@ -1,0 +1,11 @@
+{
+  "invsim.announce": "Opium @ Acesse seu inventário em {0}.",
+  "invsim.ws_new": "Opium @ Seu inventário será atualizado em instantes.",
+  "invsim.ws_in_progress": "Opium @ Seu inventário está sendo atualizado.",
+  "invsim.ws_cooldown": "Opium @ Você não pode atualizar seu inventário agora. Aguarde {0} segundos.",
+  "invsim.ws_completed": "Opium @ Seu inventário foi atualizado.",
+  "invsim.spray_cooldown": "Opium @ Você não pode grafitar agora. Aguarde {0} segundos.",
+  "invsim.login_in_progress": "Opium @ Tentando autenticar ao seu inventário...",
+  "invsim.login": "Opium @ Acesse {0} para ver seu inventário.",
+  "invsim.login_failed": "Opium @ Não foi possível autenticar ao seu inventário, tente novamente mais tarde."
+}

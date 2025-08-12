@@ -1,0 +1,6 @@
+2025-08-10 01:33:19.517 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-10 01:33:19.550 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-10 01:33:19.552 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-10 01:45:52.298 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-10 01:45:52.336 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-10 01:45:52.339 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers

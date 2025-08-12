@@ -1,0 +1,1 @@
+2025-08-11 16:32:26.956 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for de_mirage (Limits: [weapon_awp, 1], Quotas: )

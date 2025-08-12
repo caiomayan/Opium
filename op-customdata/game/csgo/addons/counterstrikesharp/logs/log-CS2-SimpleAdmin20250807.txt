@@ -1,0 +1,409 @@
+2025-08-07 13:33:13.163 +00:00 [WARN] plugin:CS2-SimpleAdmin (RELEASE) Failed to check version. Status Code: TooManyRequests
+2025-08-07 13:33:16.809 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-07 13:33:16.810 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-07 13:33:16.811 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-07 13:33:16.814 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-07 13:33:16.814 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-07 13:33:16.815 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-07 13:33:16.816 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-07 13:33:16.817 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-07 13:33:16.818 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-07 13:33:16.818 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-07 13:33:16.819 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-07 13:33:16.820 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-07 13:33:16.821 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-07 13:33:16.822 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-07 13:33:16.823 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-07 13:33:16.823 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-07 13:33:16.824 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-07 13:33:16.825 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-07 13:33:16.826 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-07 13:33:16.827 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-07 13:33:16.827 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-07 13:33:16.828 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-07 13:33:16.829 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-07 13:33:16.830 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-07 13:33:16.831 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-07 13:33:16.832 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-07 13:33:16.833 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-07 13:33:16.833 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-07 13:33:16.834 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-07 13:33:16.835 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-07 13:33:16.836 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-07 13:33:16.837 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-07 13:33:16.838 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-07 13:33:16.838 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-07 13:33:16.839 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-07 13:33:16.840 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-07 13:33:16.841 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-07 13:33:16.841 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-07 13:33:16.842 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-07 13:33:16.843 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-07 13:33:16.844 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-07 13:33:16.845 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-07 13:33:16.846 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-07 13:33:16.846 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-07 13:33:16.847 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-07 13:33:16.848 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-07 13:33:16.849 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-07 13:33:16.850 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-07 13:33:16.851 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-07 13:33:16.852 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-07 13:33:16.852 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-07 13:33:16.853 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-07 13:33:16.854 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-07 13:33:16.855 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-07 13:33:16.856 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-07 13:33:16.857 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-07 13:33:16.858 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-07 13:33:16.858 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-07 13:33:16.859 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-07 13:33:16.860 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-07 13:33:16.861 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-07 13:33:16.862 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-07 13:33:16.863 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-07 13:33:16.864 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-07 13:33:37.060 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded server with ip 177.37.142.17
+2025-08-07 13:33:37.187 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 13:33:40.652 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 13:36:59.638 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Plugin is up to date
+2025-08-07 13:37:00.802 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-07 13:37:00.803 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-07 13:37:00.804 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-07 13:37:00.805 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-07 13:37:00.806 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-07 13:37:00.807 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-07 13:37:00.808 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-07 13:37:00.809 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-07 13:37:00.810 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-07 13:37:00.811 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-07 13:37:00.812 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-07 13:37:00.813 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-07 13:37:00.814 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-07 13:37:00.815 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-07 13:37:00.816 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-07 13:37:00.817 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-07 13:37:00.818 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-07 13:37:00.819 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-07 13:37:00.820 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-07 13:37:00.821 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-07 13:37:00.822 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-07 13:37:00.823 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-07 13:37:00.824 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-07 13:37:00.825 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-07 13:37:00.826 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-07 13:37:00.827 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-07 13:37:00.828 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-07 13:37:00.829 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-07 13:37:00.829 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-07 13:37:00.831 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-07 13:37:00.832 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-07 13:37:00.833 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-07 13:37:00.833 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-07 13:37:00.834 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-07 13:37:00.835 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-07 13:37:00.836 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-07 13:37:00.837 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-07 13:37:00.838 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-07 13:37:00.839 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-07 13:37:00.840 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-07 13:37:00.841 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-07 13:37:00.842 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-07 13:37:00.843 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-07 13:37:00.844 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-07 13:37:00.845 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-07 13:37:00.846 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-07 13:37:00.847 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-07 13:37:00.848 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-07 13:37:00.849 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-07 13:37:00.850 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-07 13:37:00.851 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-07 13:37:00.852 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-07 13:37:00.853 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-07 13:37:00.854 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-07 13:37:00.855 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-07 13:37:00.855 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-07 13:37:00.856 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-07 13:37:00.857 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-07 13:37:00.858 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-07 13:37:00.860 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-07 13:37:00.860 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-07 13:37:00.862 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-07 13:37:00.862 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-07 13:37:00.864 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-07 13:37:12.082 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded server with ip 177.37.142.17
+2025-08-07 13:37:12.201 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 13:37:15.831 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 14:16:22.581 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Plugin is up to date
+2025-08-07 14:16:24.557 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-07 14:16:24.558 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-07 14:16:24.559 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-07 14:16:24.560 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-07 14:16:24.561 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-07 14:16:24.562 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-07 14:16:24.563 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-07 14:16:24.564 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-07 14:16:24.565 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-07 14:16:24.566 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-07 14:16:24.567 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-07 14:16:24.568 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-07 14:16:24.569 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-07 14:16:24.570 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-07 14:16:24.571 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-07 14:16:24.572 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-07 14:16:24.572 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-07 14:16:24.573 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-07 14:16:24.574 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-07 14:16:24.575 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-07 14:16:24.576 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-07 14:16:24.577 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-07 14:16:24.578 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-07 14:16:24.579 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-07 14:16:24.579 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-07 14:16:24.580 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-07 14:16:24.582 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-07 14:16:24.583 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-07 14:16:24.583 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-07 14:16:24.584 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-07 14:16:24.585 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-07 14:16:24.586 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-07 14:16:24.587 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-07 14:16:24.588 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-07 14:16:24.589 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-07 14:16:24.590 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-07 14:16:24.591 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-07 14:16:24.591 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-07 14:16:24.592 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-07 14:16:24.593 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-07 14:16:24.594 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-07 14:16:24.595 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-07 14:16:24.596 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-07 14:16:24.597 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-07 14:16:24.598 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-07 14:16:24.599 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-07 14:16:24.600 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-07 14:16:24.601 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-07 14:16:24.602 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-07 14:16:24.603 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-07 14:16:24.604 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-07 14:16:24.605 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-07 14:16:24.606 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-07 14:16:24.608 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-07 14:16:24.608 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-07 14:16:24.610 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-07 14:16:24.611 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-07 14:16:24.613 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-07 14:16:24.613 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-07 14:16:24.614 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-07 14:16:24.615 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-07 14:16:24.616 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-07 14:16:24.618 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-07 14:16:24.619 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-07 14:16:37.827 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded server with ip 177.37.142.17
+2025-08-07 14:16:37.959 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 14:17:03.418 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 14:25:35.940 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Plugin is up to date
+2025-08-07 14:25:37.455 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-07 14:25:37.456 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-07 14:25:37.458 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-07 14:25:37.459 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-07 14:25:37.460 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-07 14:25:37.461 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-07 14:25:37.463 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-07 14:25:37.464 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-07 14:25:37.465 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-07 14:25:37.466 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-07 14:25:37.467 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-07 14:25:37.468 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-07 14:25:37.469 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-07 14:25:37.470 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-07 14:25:37.471 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-07 14:25:37.472 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-07 14:25:37.474 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-07 14:25:37.475 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-07 14:25:37.476 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-07 14:25:37.477 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-07 14:25:37.478 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-07 14:25:37.479 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-07 14:25:37.480 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-07 14:25:37.481 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-07 14:25:37.482 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-07 14:25:37.483 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-07 14:25:37.484 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-07 14:25:37.485 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-07 14:25:37.486 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-07 14:25:37.487 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-07 14:25:37.489 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-07 14:25:37.490 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-07 14:25:37.490 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-07 14:25:37.492 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-07 14:25:37.493 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-07 14:25:37.494 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-07 14:25:37.495 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-07 14:25:59.270 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-07 14:25:59.271 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-07 14:25:59.273 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-07 14:25:59.274 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-07 14:25:59.275 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-07 14:25:59.277 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-07 14:25:59.278 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-07 14:25:59.279 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-07 14:25:59.280 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-07 14:25:59.281 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-07 14:25:59.283 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-07 14:25:59.284 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-07 14:25:59.286 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-07 14:25:59.287 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-07 14:25:59.288 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-07 14:25:59.289 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-07 14:25:59.291 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-07 14:25:59.292 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-07 14:25:59.293 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-07 14:25:59.294 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-07 14:25:59.295 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-07 14:25:59.297 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-07 14:25:59.298 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-07 14:25:59.299 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-07 14:25:59.300 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-07 14:25:59.301 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-07 14:25:59.302 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-07 14:25:50.244 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded server with ip 177.37.142.17
+2025-08-07 14:25:50.399 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 14:25:53.954 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 14:26:25.895 +00:00 [EROR] plugin:CS2-SimpleAdmin (RELEASE) Error processing player connection: The given key '2' was not present in the dictionary.
+2025-08-07 14:29:16.232 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Plugin is up to date
+2025-08-07 14:29:17.848 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-07 14:29:17.849 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-07 14:29:17.850 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-07 14:29:17.852 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-07 14:29:17.853 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-07 14:29:17.854 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-07 14:29:17.855 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-07 14:29:17.856 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-07 14:29:17.857 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-07 14:29:17.858 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-07 14:29:17.859 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-07 14:29:17.860 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-07 14:29:17.861 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-07 14:29:17.862 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-07 14:29:17.863 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-07 14:29:17.864 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-07 14:29:17.865 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-07 14:29:17.866 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-07 14:29:17.867 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-07 14:29:17.868 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-07 14:29:17.869 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-07 14:29:17.870 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-07 14:29:17.871 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-07 14:29:39.647 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-07 14:29:39.648 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-07 14:29:39.649 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-07 14:29:39.650 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-07 14:29:39.652 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-07 14:29:39.653 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-07 14:29:39.653 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-07 14:29:39.654 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-07 14:29:39.655 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-07 14:29:39.656 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-07 14:29:39.657 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-07 14:29:39.658 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-07 14:29:39.659 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-07 14:29:39.660 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-07 14:29:39.661 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-07 14:29:39.662 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-07 14:29:39.663 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-07 14:29:39.664 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-07 14:29:39.665 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-07 14:29:39.666 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-07 14:29:39.667 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-07 14:29:39.668 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-07 14:29:39.669 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-07 14:29:39.670 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-07 14:29:39.670 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-07 14:29:39.671 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-07 14:29:39.672 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-07 14:29:39.673 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-07 14:29:39.674 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-07 14:29:39.676 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-07 14:29:39.676 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-07 14:29:39.677 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-07 14:29:39.678 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-07 14:29:39.679 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-07 14:29:39.680 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-07 14:29:39.681 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-07 14:29:39.682 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-07 14:29:39.683 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-07 14:29:39.684 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-07 14:29:39.684 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-07 14:29:39.685 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-07 14:29:29.468 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded server with ip 177.37.142.17
+2025-08-07 14:29:29.596 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 14:29:33.288 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 22:20:25.091 +00:00 [WARN] plugin:CS2-SimpleAdmin (RELEASE) Failed to check version. Status Code: TooManyRequests
+2025-08-07 22:20:26.522 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-07 22:20:26.524 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-07 22:20:26.525 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-07 22:20:26.526 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-07 22:20:26.527 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-07 22:20:26.529 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-07 22:20:26.530 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-07 22:20:26.530 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-07 22:20:26.531 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-07 22:20:26.532 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-07 22:20:26.533 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-07 22:20:26.535 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-07 22:20:26.535 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-07 22:20:26.536 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-07 22:20:26.537 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-07 22:20:26.538 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-07 22:20:26.539 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-07 22:20:26.540 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-07 22:20:26.541 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-07 22:20:26.542 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-07 22:20:26.543 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-07 22:20:26.544 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-07 22:20:26.545 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-07 22:20:26.546 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-07 22:20:26.547 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-07 22:20:26.548 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-07 22:20:26.549 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-07 22:20:26.549 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-07 22:20:26.550 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-07 22:20:26.552 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-07 22:20:26.553 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-07 22:20:26.554 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-07 22:20:26.555 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-07 22:20:26.555 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-07 22:20:26.556 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-07 22:20:26.558 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-07 22:20:26.559 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-07 22:20:26.560 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-07 22:20:26.561 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-07 22:20:26.562 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-07 22:20:26.563 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-07 22:20:26.564 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-07 22:20:26.565 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-07 22:20:26.566 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-07 22:20:26.567 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-07 22:20:26.568 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-07 22:20:26.569 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-07 22:20:26.570 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-07 22:20:26.571 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-07 22:20:26.572 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-07 22:20:26.573 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-07 22:20:26.574 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-07 22:20:26.575 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-07 22:20:26.576 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-07 22:20:26.577 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-07 22:20:26.578 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-07 22:20:26.579 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-07 22:20:26.580 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-07 22:20:26.581 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-07 22:20:26.581 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-07 22:20:26.582 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-07 22:20:26.583 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-07 22:20:26.584 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-07 22:20:26.585 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-07 22:20:39.727 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded server with ip 177.37.142.17
+2025-08-07 22:20:39.846 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-07 22:20:43.463 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!

@@ -1,0 +1,11 @@
+{
+  "invsim.announce": "Opium @ Access your inventory at {0}.",
+  "invsim.ws_new": "Opium @ Your inventory will be refreshed shortly.",
+  "invsim.ws_in_progress": "Opium @ Your inventory is being refreshed.",
+  "invsim.ws_cooldown": "Opium @ You cannot refresh your inventory right now. Please wait {0} seconds.",
+  "invsim.ws_completed": "Opium @ Your inventory have been refreshed.",
+  "invsim.spray_cooldown": "Opium @ You cannot spray right now. Please wait {0} seconds.",
+  "invsim.login_in_progress": "Opium @ Trying to authenticate to your inventory...",
+  "invsim.login": "Opium @ Access {0} to view your inventory.",
+  "invsim.login_failed": "Opium @ Unable to authenticate to your inventory, please try again later."
+}

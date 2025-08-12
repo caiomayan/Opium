@@ -1,0 +1,1 @@
+E:\opserver\opserver\steamcmd.exe +force_install_dir E:\opserver\opserver +login anonymous +app_update 730 validate +quit

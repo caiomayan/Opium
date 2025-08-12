@@ -1,0 +1,6 @@
+2025-08-06 00:41:40.283 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for <empty> (Limits: [weapon_awp, 1], Quotas: )
+2025-08-06 00:42:07.032 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for de_mirage_rain (Limits: [weapon_awp, 1], Quotas: )
+2025-08-06 00:44:00.143 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for de_mirage (Limits: [weapon_awp, 1], Quotas: )
+2025-08-06 03:19:41.075 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for <empty> (Limits: [weapon_awp, 1], Quotas: )
+2025-08-06 03:19:47.066 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for de_mirage_rain (Limits: [weapon_awp, 1], Quotas: )
+2025-08-06 03:21:18.133 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for de_mirage (Limits: [weapon_awp, 1], Quotas: )

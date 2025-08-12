@@ -1,0 +1,43 @@
+services:
+  cs2-server:
+    image: joedwards32/cs2
+    container_name: cs2-server
+    env_file:
+      - .env
+    depends_on:
+      cs2-db:
+        condition: service_healthy
+        restart: true
+    volumes:
+      - ./opserver:/home/steam/cs2-dedicated
+    ports:
+      - "${CS2_PORT}:${CS2_PORT}/tcp"
+      - "${CS2_PORT}:${CS2_PORT}/udp"
+      - "${CS2_RCON_PORT}:${CS2_RCON_PORT}"
+    networks:
+      - cs2-network
+    stdin_open: true
+    tty: true
+
+  cs2-db:
+    image: mysql:latest
+    env_file:
+      - .env
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 5s
+      retries: 10
+    ports:
+      - '${PORT_PC_TO_DB}:3306'
+    volumes:
+      - ./op-database:/var/lib/mysql
+    networks:
+      - cs2-network
+
+volumes:
+  cs2-db:
+
+networks:
+  cs2-network:
+    driver: bridge
+    name: cs2-network

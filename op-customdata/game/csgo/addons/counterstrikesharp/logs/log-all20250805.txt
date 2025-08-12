@@ -1,0 +1,536 @@
+2025-08-05 17:52:00.370 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-05 17:52:00.510 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-05 17:52:00.526 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-05 17:52:00.540 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-05 17:52:00.542 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-05 17:52:00.572 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-05 17:52:00.574 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-05 17:52:00.576 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-05 17:52:01.560 +00:00 [INFO] (cssharp:PluginContext) Loading plugin AFKManager
+2025-08-05 17:52:01.613 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin AFK Manager
+2025-08-05 17:52:02.147 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-CustomVotes
+2025-08-05 17:52:23.092 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-05 17:52:23.124 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-05 17:52:23.126 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-05 17:52:23.127 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Custom Votes
+2025-08-05 17:52:02.506 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-05 17:52:03.030 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-05 17:52:03.116 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2_ExecAfter
+2025-08-05 17:52:03.121 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2_ExecAfter
+2025-08-05 17:52:03.274 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Plugin is up to date
+2025-08-05 17:52:04.010 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-05 17:52:04.138 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/DiscordUtilities/DiscordUtilities.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Text.Json.JsonException: The JSON value could not be converted to System.Int32. Path: $['Database Connection'].Port | LineNumber: 9 | BytePositionInLine: 14.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a number.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedNumber(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.TryGetInt32(Int32& value)
+   at System.Text.Json.Utf8JsonReader.GetInt32()
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at CounterStrikeSharp.API.Modules.Config.ConfigManager.Deserialize[T](String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Modules/Config/ConfigManager.cs:line 121
+   at CounterStrikeSharp.API.Modules.Config.ConfigManager.Load[T](String pluginName) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Modules/Config/ConfigManager.cs:line 72
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 387
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-08-05 17:52:04.267 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-05 17:52:04.298 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-05 17:52:04.378 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-05 17:52:04.396 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-05 17:52:04.494 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-05 17:52:04.539 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-05 17:52:04.618 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-05 17:52:04.638 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-05 17:52:04.712 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-05 17:52:04.735 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-05 17:52:04.896 +00:00 [INFO] (cssharp:PluginContext) Loading plugin GameModeManager
+2025-08-05 17:52:05.064 +00:00 [WARN] plugin:GameModeManager Skipping alltalk_on.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.089 +00:00 [WARN] plugin:GameModeManager Skipping bhop_off.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.090 +00:00 [WARN] plugin:GameModeManager Skipping bhop_on.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.091 +00:00 [WARN] plugin:GameModeManager Skipping bots_ar.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.093 +00:00 [WARN] plugin:GameModeManager Skipping bots_buy.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.094 +00:00 [WARN] plugin:GameModeManager Skipping bots_dm.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.094 +00:00 [WARN] plugin:GameModeManager Skipping bots_dont_buy.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.095 +00:00 [WARN] plugin:GameModeManager Skipping course.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.099 +00:00 [WARN] plugin:GameModeManager Skipping inventory_simulator.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.100 +00:00 [WARN] plugin:GameModeManager Skipping kz_on.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.101 +00:00 [WARN] plugin:GameModeManager Skipping map_voting.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.102 +00:00 [WARN] plugin:GameModeManager Skipping movement_restore.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.102 +00:00 [WARN] plugin:GameModeManager Skipping movement_unlock.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.103 +00:00 [WARN] plugin:GameModeManager Skipping no_bots.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.104 +00:00 [WARN] plugin:GameModeManager Skipping no_buying.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.105 +00:00 [WARN] plugin:GameModeManager Skipping no_drop_weapons.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.106 +00:00 [WARN] plugin:GameModeManager Skipping one_round.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.107 +00:00 [WARN] plugin:GameModeManager Skipping quake_sounds.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.108 +00:00 [WARN] plugin:GameModeManager Skipping random_spawns.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.109 +00:00 [WARN] plugin:GameModeManager Skipping surf_off.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.109 +00:00 [WARN] plugin:GameModeManager Skipping surf_on.cfg because its missing the correct prefix.
+2025-08-05 17:52:05.113 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin GameModeManager
+2025-08-05 17:52:05.203 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InstadefusePlugin
+2025-08-05 17:52:05.223 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Instadefuse Plugin
+2025-08-05 17:52:05.386 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-05 17:52:05.539 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-05 17:52:05.643 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-05 17:52:05.675 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-05 17:52:05.790 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-05 17:52:05.813 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-05 17:52:05.931 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-05 17:52:05.956 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-05 17:52:06.043 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-05 17:52:06.242 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-05 17:52:06.348 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-05 17:52:06.369 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-05 17:52:06.597 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-05 17:52:06.619 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-05 17:52:06.693 +00:00 [INFO] (cssharp:PluginContext) Loading plugin WeaponRestrict
+2025-08-05 17:52:06.732 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin WeaponRestrict
+2025-08-05 17:52:06.884 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-05 17:52:06.886 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-05 17:52:06.887 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-05 17:52:06.889 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-05 17:52:06.889 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-05 17:52:06.890 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-05 17:52:06.891 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-05 17:52:06.892 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-05 17:52:06.893 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-05 17:52:06.894 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-05 17:52:06.895 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-05 17:52:06.896 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-05 17:52:06.896 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-05 17:52:06.897 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-05 17:52:06.898 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-05 17:52:06.899 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-05 17:52:06.900 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-05 17:52:06.901 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-05 17:52:06.902 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-05 17:52:06.902 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-05 17:52:06.903 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-05 17:52:06.904 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-05 17:52:06.905 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-05 17:52:06.906 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-05 17:52:06.907 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-05 17:52:06.908 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-05 17:52:06.909 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-05 17:52:06.909 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-05 17:52:06.910 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-05 17:52:06.911 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-05 17:52:06.912 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-05 17:52:06.913 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-05 17:52:06.914 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-05 17:52:06.915 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-05 17:52:06.915 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-05 17:52:06.916 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-05 17:52:06.917 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-05 17:52:06.918 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-05 17:52:06.919 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-05 17:52:06.920 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-05 17:52:06.920 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-05 17:52:06.921 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-05 17:52:06.922 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-05 17:52:06.923 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-05 17:52:06.924 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-05 17:52:06.925 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-05 17:52:06.926 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-05 17:52:06.927 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-05 17:52:06.928 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-05 17:52:06.928 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-05 17:52:06.929 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-05 17:52:06.930 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-05 17:52:06.931 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-05 17:52:06.932 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-05 17:52:06.933 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-05 17:52:06.933 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-05 17:52:06.934 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-05 17:52:06.935 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-05 17:52:06.936 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-05 17:52:06.937 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-05 17:52:06.938 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-05 17:52:06.939 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-05 17:52:06.940 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-05 17:52:06.940 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-05 17:52:06.944 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ChatRelay.ChatRelay.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 188
+   at ChatRelay.ChatRelay.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 25
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-05 17:52:06.947 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ConnectedPlayersRole.ConnectedPlayersRole.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 87
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 21
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-05 17:52:06.950 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at EventNotifications.EventNotifications.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 371
+   at EventNotifications.EventNotifications.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 27
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-05 17:52:06.952 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ManageRolesAndPermissions.ManageRolesAndPermissions.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ManageRolesAndPermissions\ManageRolesAndPermissions.cs:line 210
+   at ManageRolesAndPermissions.ManageRolesAndPermissions.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ManageRolesAndPermissions\ManageRolesAndPermissions.cs:line 31
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-05 17:52:06.954 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at RCON.RCON.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\RCON\Rcon.cs:line 172
+   at RCON.RCON.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\RCON\Rcon.cs:line 21
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-05 17:52:12.896 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for <empty> (Limits: [weapon_awp, 1], Quotas: )
+2025-08-05 17:52:13.741 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.PerformMapEnd() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 242
+   at EventNotifications.EventNotifications.<Load>b__17_0() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 35
+   at InvokeStub_OnMapEnd.Invoke(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass51_0`1.<RegisterListener>b__2(ScriptContext context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 298
+   at InvokeStub_Action`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context)
+2025-08-05 17:52:20.206 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for de_mirage_rain (Limits: [weapon_awp, 1], Quotas: )
+2025-08-05 17:52:20.258 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-05 17:52:20.284 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-05 17:52:21.170 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded server with ip 177.37.142.17
+2025-08-05 17:52:21.324 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-05 17:52:22.727 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-05 17:52:24.712 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-05 17:52:24.903 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-05 17:52:26.105 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-05 17:52:28.314 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-05 18:04:13.756 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-05 18:04:13.758 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-05 18:52:47.530 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-05 18:52:47.679 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-05 18:52:47.692 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-05 18:52:47.706 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-05 18:52:47.708 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-05 18:52:47.741 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-05 18:52:47.742 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-05 18:52:47.746 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-05 18:52:48.488 +00:00 [INFO] (cssharp:PluginContext) Loading plugin AFKManager
+2025-08-05 18:52:48.539 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin AFK Manager
+2025-08-05 18:52:49.064 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-CustomVotes
+2025-08-05 18:52:49.164 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Vote cheats added
+2025-08-05 18:52:49.207 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering custom vote API
+2025-08-05 18:52:49.209 +00:00 [INFO] plugin:Custom Votes [CustomVotes] Registering event handlers
+2025-08-05 18:52:49.211 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Custom Votes
+2025-08-05 18:52:49.442 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-05 18:52:49.974 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-05 18:52:50.058 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2_ExecAfter
+2025-08-05 18:52:50.063 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2_ExecAfter
+2025-08-05 18:52:50.251 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Plugin is up to date
+2025-08-05 18:52:50.924 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-05 18:52:51.044 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/DiscordUtilities/DiscordUtilities.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Text.Json.JsonException: The JSON value could not be converted to System.Int32. Path: $['Database Connection'].Port | LineNumber: 9 | BytePositionInLine: 14.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a number.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedNumber(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.TryGetInt32(Int32& value)
+   at System.Text.Json.Utf8JsonReader.GetInt32()
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at CounterStrikeSharp.API.Modules.Config.ConfigManager.Deserialize[T](String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Modules/Config/ConfigManager.cs:line 121
+   at CounterStrikeSharp.API.Modules.Config.ConfigManager.Load[T](String pluginName) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Modules/Config/ConfigManager.cs:line 72
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 387
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-08-05 18:52:51.175 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-05 18:52:51.200 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-05 18:52:51.268 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-05 18:52:51.285 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-05 18:52:51.379 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-05 18:52:51.421 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-05 18:52:51.496 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-05 18:52:51.515 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-05 18:52:51.591 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-05 18:52:51.615 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-05 18:52:51.767 +00:00 [INFO] (cssharp:PluginContext) Loading plugin GameModeManager
+2025-08-05 18:52:51.912 +00:00 [WARN] plugin:GameModeManager Skipping alltalk_on.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.944 +00:00 [WARN] plugin:GameModeManager Skipping bhop_off.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.945 +00:00 [WARN] plugin:GameModeManager Skipping bhop_on.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.946 +00:00 [WARN] plugin:GameModeManager Skipping bots_ar.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.947 +00:00 [WARN] plugin:GameModeManager Skipping bots_buy.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.948 +00:00 [WARN] plugin:GameModeManager Skipping bots_dm.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.950 +00:00 [WARN] plugin:GameModeManager Skipping bots_dont_buy.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.951 +00:00 [WARN] plugin:GameModeManager Skipping course.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.955 +00:00 [WARN] plugin:GameModeManager Skipping inventory_simulator.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.956 +00:00 [WARN] plugin:GameModeManager Skipping kz_on.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.957 +00:00 [WARN] plugin:GameModeManager Skipping map_voting.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.958 +00:00 [WARN] plugin:GameModeManager Skipping movement_restore.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.960 +00:00 [WARN] plugin:GameModeManager Skipping movement_unlock.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.961 +00:00 [WARN] plugin:GameModeManager Skipping no_bots.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.962 +00:00 [WARN] plugin:GameModeManager Skipping no_buying.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.963 +00:00 [WARN] plugin:GameModeManager Skipping no_drop_weapons.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.964 +00:00 [WARN] plugin:GameModeManager Skipping one_round.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.965 +00:00 [WARN] plugin:GameModeManager Skipping quake_sounds.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.966 +00:00 [WARN] plugin:GameModeManager Skipping random_spawns.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.967 +00:00 [WARN] plugin:GameModeManager Skipping surf_off.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.968 +00:00 [WARN] plugin:GameModeManager Skipping surf_on.cfg because its missing the correct prefix.
+2025-08-05 18:52:51.972 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin GameModeManager
+2025-08-05 18:52:52.069 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InstadefusePlugin
+2025-08-05 18:52:52.093 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Instadefuse Plugin
+2025-08-05 18:52:52.262 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-05 18:52:52.415 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-05 18:52:52.519 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-05 18:52:52.550 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-05 18:52:52.664 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-05 18:52:52.686 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-05 18:52:52.808 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-05 18:53:13.720 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-05 18:53:13.807 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-05 18:52:53.126 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-05 18:52:53.226 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-05 18:52:53.247 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-05 18:52:53.475 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-05 18:52:53.499 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-05 18:52:53.572 +00:00 [INFO] (cssharp:PluginContext) Loading plugin WeaponRestrict
+2025-08-05 18:52:53.610 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin WeaponRestrict
+2025-08-05 18:52:53.752 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ban` with aliases: `css_ban`
+2025-08-05 18:52:53.754 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addban` with aliases: `css_addban`
+2025-08-05 18:52:53.755 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_banip` with aliases: `css_banip`
+2025-08-05 18:52:53.756 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unban` with aliases: `css_unban`
+2025-08-05 18:52:53.757 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warn` with aliases: `css_warn`
+2025-08-05 18:52:53.759 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unwarn` with aliases: `css_unwarn`
+2025-08-05 18:52:53.760 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_asay` with aliases: `css_asay`
+2025-08-05 18:52:53.761 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cssay` with aliases: `css_cssay`
+2025-08-05 18:52:53.762 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_say` with aliases: `css_say`
+2025-08-05 18:52:53.763 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_psay` with aliases: `css_psay`
+2025-08-05 18:52:53.764 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_csay` with aliases: `css_csay`
+2025-08-05 18:52:53.764 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hsay` with aliases: `css_hsay`
+2025-08-05 18:52:53.765 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_penalties` with aliases: `css_penalties, css_mypenalties, css_comms`
+2025-08-05 18:52:53.766 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_admin` with aliases: `css_admin`
+2025-08-05 18:52:53.767 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminhelp` with aliases: `css_adminhelp`
+2025-08-05 18:52:53.767 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addadmin` with aliases: `css_addadmin`
+2025-08-05 18:52:53.768 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_deladmin` with aliases: `css_deladmin`
+2025-08-05 18:52:53.769 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgroup` with aliases: `css_addgroup`
+2025-08-05 18:52:53.770 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_delgroup` with aliases: `css_delgroup`
+2025-08-05 18:52:53.771 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadadmins` with aliases: `css_reloadadmins`
+2025-08-05 18:52:53.771 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_reloadbans` with aliases: `css_reloadbans`
+2025-08-05 18:52:53.772 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hide` with aliases: `css_hide, css_stealth`
+2025-08-05 18:52:53.773 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hidecomms` with aliases: `css_hidecomms`
+2025-08-05 18:52:53.774 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_who` with aliases: `css_who`
+2025-08-05 18:52:53.775 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_disconnected` with aliases: `css_disconnected, css_last`
+2025-08-05 18:52:53.776 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_warns` with aliases: `css_warns`
+2025-08-05 18:52:53.776 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_players` with aliases: `css_players`
+2025-08-05 18:52:53.777 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_kick` with aliases: `css_kick`
+2025-08-05 18:52:53.778 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_map` with aliases: `css_map, css_changemap`
+2025-08-05 18:52:53.779 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_wsmap` with aliases: `css_wsmap, css_changewsmap, css_workshop`
+2025-08-05 18:52:53.780 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_cvar` with aliases: `css_cvar`
+2025-08-05 18:52:53.781 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rcon` with aliases: `css_rcon`
+2025-08-05 18:52:53.782 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rr` with aliases: `css_rr, css_rg, css_restart, css_restartgame`
+2025-08-05 18:52:53.783 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gag` with aliases: `css_gag`
+2025-08-05 18:52:53.784 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addgag` with aliases: `css_addgag`
+2025-08-05 18:52:53.785 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_ungag` with aliases: `css_ungag`
+2025-08-05 18:52:53.785 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_mute` with aliases: `css_mute`
+2025-08-05 18:52:53.786 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addmute` with aliases: `css_addmute`
+2025-08-05 18:52:53.787 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unmute` with aliases: `css_unmute`
+2025-08-05 18:52:53.788 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_silence` with aliases: `css_silence`
+2025-08-05 18:52:53.788 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_addsilence` with aliases: `css_addsilence`
+2025-08-05 18:52:53.789 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unsilence` with aliases: `css_unsilence`
+2025-08-05 18:52:53.790 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_vote` with aliases: `css_vote`
+2025-08-05 18:52:53.791 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_noclip` with aliases: `css_noclip`
+2025-08-05 18:52:53.792 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_freeze` with aliases: `css_freeze`
+2025-08-05 18:52:53.793 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_unfreeze` with aliases: `css_unfreeze`
+2025-08-05 18:52:53.794 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_godmode` with aliases: `css_godmode`
+2025-08-05 18:52:53.795 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slay` with aliases: `css_slay`
+2025-08-05 18:52:53.796 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_slap` with aliases: `css_slap`
+2025-08-05 18:52:53.796 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_give` with aliases: `css_give`
+2025-08-05 18:52:53.797 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_strip` with aliases: `css_strip`
+2025-08-05 18:52:53.798 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_hp` with aliases: `css_hp`
+2025-08-05 18:52:53.799 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_speed` with aliases: `css_speed`
+2025-08-05 18:52:53.800 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_gravity` with aliases: `css_gravity`
+2025-08-05 18:52:53.801 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_resize` with aliases: `css_resize, css_size`
+2025-08-05 18:52:53.801 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_money` with aliases: `css_money`
+2025-08-05 18:52:53.802 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_team` with aliases: `css_team`
+2025-08-05 18:52:53.803 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_rename` with aliases: `css_rename`
+2025-08-05 18:52:53.804 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_prename` with aliases: `css_prename`
+2025-08-05 18:52:53.805 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_respawn` with aliases: `css_respawn`
+2025-08-05 18:52:53.806 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_tp` with aliases: `css_tp, css_tpto, css_goto`
+2025-08-05 18:52:53.806 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_bring` with aliases: `css_bring, css_tphere`
+2025-08-05 18:52:53.807 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_pluginsmanager` with aliases: `css_pluginsmanager, css_pluginmanager`
+2025-08-05 18:52:53.808 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Registering command: `css_adminvoice` with aliases: `css_adminvoice, css_listenall`
+2025-08-05 18:52:53.812 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ChatRelay.ChatRelay.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 188
+   at ChatRelay.ChatRelay.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 25
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-05 18:52:53.817 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ConnectedPlayersRole.ConnectedPlayersRole.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 87
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 21
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-05 18:52:53.819 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at EventNotifications.EventNotifications.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 371
+   at EventNotifications.EventNotifications.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 27
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-05 18:52:53.821 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ManageRolesAndPermissions.ManageRolesAndPermissions.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ManageRolesAndPermissions\ManageRolesAndPermissions.cs:line 210
+   at ManageRolesAndPermissions.ManageRolesAndPermissions.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ManageRolesAndPermissions\ManageRolesAndPermissions.cs:line 31
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-05 18:52:53.824 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at RCON.RCON.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\RCON\Rcon.cs:line 172
+   at RCON.RCON.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\RCON\Rcon.cs:line 21
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-05 18:53:00.263 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for <empty> (Limits: [weapon_awp, 1], Quotas: )
+2025-08-05 18:53:01.210 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.PerformMapEnd() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 242
+   at EventNotifications.EventNotifications.<Load>b__17_0() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 35
+   at InvokeStub_OnMapEnd.Invoke(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass51_0`1.<RegisterListener>b__2(ScriptContext context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 298
+   at InvokeStub_Action`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context)
+2025-08-05 18:53:28.819 +00:00 [INFO] plugin:WeaponRestrict Loaded default config for de_mirage_rain (Limits: [weapon_awp, 1], Quotas: )
+2025-08-05 18:53:28.860 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-05 18:53:28.892 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-05 18:53:08.986 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded server with ip 177.37.142.17
+2025-08-05 18:53:09.159 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-05 18:53:10.512 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-05 18:53:12.441 +00:00 [INFO] plugin:CS2-SimpleAdmin (RELEASE) Loaded admins!
+2025-08-05 18:53:12.711 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-05 18:53:13.803 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-05 18:53:16.012 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-05 19:13:13.513 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-05 19:13:13.519 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101

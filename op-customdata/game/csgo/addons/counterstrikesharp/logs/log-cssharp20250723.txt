@@ -1,0 +1,503 @@
+2025-07-23 01:54:41.590 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 01:54:41.713 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 01:54:41.726 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 01:54:41.730 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 01:54:41.733 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 01:54:41.734 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 01:54:41.737 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 02:03:24.252 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 02:03:24.369 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 02:03:24.383 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 02:03:24.387 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 02:03:24.390 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 02:03:24.391 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 02:03:24.393 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 02:03:25.026 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 02:03:25.042 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.TypeInitializationException: The type initializer for 'CS2_SimpleAdmin.CS2_SimpleAdmin' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'MenuManagerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'MenuManagerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   --- End of inner exception stack trace ---
+   at CS2_SimpleAdmin.CS2_SimpleAdmin..ctor()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 203
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 02:08:09.242 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 02:08:09.358 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 02:08:09.371 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 02:08:09.375 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 02:08:09.378 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 02:08:09.379 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 02:08:09.381 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 02:08:09.963 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 02:08:09.976 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.TypeInitializationException: The type initializer for 'CS2_SimpleAdmin.CS2_SimpleAdmin' threw an exception.
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'MenuManagerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'. The system cannot find the file specified.
+
+File name: 'MenuManagerApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+   --- End of inner exception stack trace ---
+   at CS2_SimpleAdmin.CS2_SimpleAdmin..ctor()
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 203
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 02:21:14.919 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 02:21:15.031 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 02:21:15.046 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 02:21:15.050 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 02:21:15.053 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 02:21:15.054 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 02:21:15.056 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 02:21:15.635 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 02:21:15.731 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Exception: [CS2-SimpleAdmin] You need to setup Database credentials in config!
+   at CS2_SimpleAdmin.CS2_SimpleAdmin.OnConfigParsed(CS2_SimpleAdminConfig config)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 393
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 02:21:15.771 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 02:21:24.405 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 02:21:24.430 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 02:21:24.508 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 02:49:11.055 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 02:49:11.178 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 02:49:11.193 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 02:49:11.197 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 02:49:11.200 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 02:49:11.201 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 02:49:11.204 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 02:49:11.741 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 02:49:15.506 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 439
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 522
+   at CS2_SimpleAdmin.Database.Database.GetConnection()
+   at CS2_SimpleAdmin.Database.Database.CheckDatabaseConnection(String& exception)
+   at CS2_SimpleAdmin.CS2_SimpleAdmin.OnConfigParsed(CS2_SimpleAdminConfig config)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 393
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 02:49:15.592 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 02:49:15.616 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 02:49:15.642 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 02:49:15.714 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:03:08.004 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 03:03:08.131 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 03:03:08.147 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 03:03:08.151 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 03:03:08.154 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 03:03:08.155 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 03:03:08.157 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 03:03:08.789 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 03:03:09.326 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> MySqlConnector.MySqlException (0x80004005): Access denied for user 'server'@'172.18.0.3' (using password: YES)
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ServerSession.SendClearPasswordAsync(String password, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 931
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 900
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 539
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 522
+   at CS2_SimpleAdmin.Database.Database.GetConnection()
+   at CS2_SimpleAdmin.Database.Database.CheckDatabaseConnection(String& exception)
+   at CS2_SimpleAdmin.CS2_SimpleAdmin.OnConfigParsed(CS2_SimpleAdminConfig config)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 393
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 03:03:09.389 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 03:03:09.416 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 03:03:09.445 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 03:03:09.528 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:07:45.860 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 03:07:45.989 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 03:07:46.003 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 03:07:46.007 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 03:07:46.010 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 03:07:46.011 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 03:07:46.014 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 03:07:46.598 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 03:07:47.115 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown database 'simple_admin'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ServerSession.SendClearPasswordAsync(String password, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 931
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 900
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 539
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 522
+   at CS2_SimpleAdmin.Database.Database.GetConnection()
+   at CS2_SimpleAdmin.Database.Database.CheckDatabaseConnection(String& exception)
+   at CS2_SimpleAdmin.CS2_SimpleAdmin.OnConfigParsed(CS2_SimpleAdminConfig config)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 393
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 03:07:47.171 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 03:07:47.198 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 03:07:47.227 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 03:07:47.307 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:12:14.710 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 03:12:14.829 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 03:12:14.842 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 03:12:14.847 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 03:12:14.850 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 03:12:14.851 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 03:12:14.853 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 03:12:15.434 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 03:12:24.580 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown database 'db'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ServerSession.SendClearPasswordAsync(String password, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 931
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 900
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 539
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 522
+   at CS2_SimpleAdmin.Database.Database.GetConnection()
+   at CS2_SimpleAdmin.Database.Database.CheckDatabaseConnection(String& exception)
+   at CS2_SimpleAdmin.CS2_SimpleAdmin.OnConfigParsed(CS2_SimpleAdminConfig config)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 393
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 03:12:24.638 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 03:12:24.666 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 03:12:24.696 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 03:12:15.652 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:14:05.918 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 03:14:06.039 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 03:14:06.053 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 03:14:06.057 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 03:14:06.060 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 03:14:06.061 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 03:14:06.064 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 03:14:06.632 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 03:14:10.754 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> MySqlConnector.MySqlException (0x80004005): Unable to connect to any of the specified MySQL hosts.
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 439
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 522
+   at CS2_SimpleAdmin.Database.Database.GetConnection()
+   at CS2_SimpleAdmin.Database.Database.CheckDatabaseConnection(String& exception)
+   at CS2_SimpleAdmin.CS2_SimpleAdmin.OnConfigParsed(CS2_SimpleAdminConfig config)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 393
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 03:14:10.814 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 03:14:10.841 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 03:14:10.869 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 03:14:19.730 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:17:48.987 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 03:17:49.102 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 03:17:49.115 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 03:17:49.119 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 03:17:49.122 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 03:17:49.123 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 03:17:49.125 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 03:17:49.654 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 03:17:50.167 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown database 'simple_admin'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ServerSession.SendClearPasswordAsync(String password, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 931
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 900
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 539
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 522
+   at CS2_SimpleAdmin.Database.Database.GetConnection()
+   at CS2_SimpleAdmin.Database.Database.CheckDatabaseConnection(String& exception)
+   at CS2_SimpleAdmin.CS2_SimpleAdmin.OnConfigParsed(CS2_SimpleAdminConfig config)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 393
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 03:17:50.218 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 03:17:50.243 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 03:17:50.267 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 03:17:50.340 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:25:51.699 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 03:25:51.815 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 03:25:51.828 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 03:25:51.833 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 03:25:51.835 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 03:25:51.836 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 03:25:51.839 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 03:25:51.944 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 03:25:52.435 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown database 'simple_admin'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ServerSession.SendClearPasswordAsync(String password, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 931
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 900
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 539
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 522
+   at CS2_SimpleAdmin.Database.Database.GetConnection()
+   at CS2_SimpleAdmin.Database.Database.CheckDatabaseConnection(String& exception)
+   at CS2_SimpleAdmin.CS2_SimpleAdmin.OnConfigParsed(CS2_SimpleAdminConfig config)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 393
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 03:25:52.485 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 03:25:52.509 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 03:25:52.534 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 03:25:52.607 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:32:37.835 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 03:32:46.601 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 03:32:46.616 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 03:32:46.620 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 03:32:46.623 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 03:32:46.624 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 03:32:46.626 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 03:32:38.035 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 03:32:38.521 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown database 'simple_admin'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ServerSession.SendClearPasswordAsync(String password, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 931
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 900
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 539
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 522
+   at CS2_SimpleAdmin.Database.Database.GetConnection()
+   at CS2_SimpleAdmin.Database.Database.CheckDatabaseConnection(String& exception)
+   at CS2_SimpleAdmin.CS2_SimpleAdmin.OnConfigParsed(CS2_SimpleAdminConfig config)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 393
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 03:32:38.575 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 03:32:38.599 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 03:32:38.624 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 03:32:38.697 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:37:47.085 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 03:37:47.205 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 03:37:47.220 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 03:37:47.224 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 03:37:47.227 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 03:37:47.228 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 03:37:47.231 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 03:37:47.779 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 03:37:48.054 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/CS2-SimpleAdmin/CS2-SimpleAdmin.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> MySqlConnector.MySqlException (0x80004005): Unknown database 'simple_admin'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsync(IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 1081
+   at MySqlConnector.Core.ServerSession.SendClearPasswordAsync(String password, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 931
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, String password, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 900
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, MySqlConnection connection, Int64 startingTimestamp, ILoadBalancer loadBalancer, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 539
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 697
+   at MySqlConnector.Core.ServerSession.ConnectAndRedirectAsync(ILogger connectionLogger, ILogger poolLogger, IConnectionPoolMetadata pool, ConnectionSettings cs, ILoadBalancer loadBalancer, MySqlConnection connection, Action`4 logMessage, Int64 startingTimestamp, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ServerSession.cs:line 702
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 116
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, Int64 startingTimestamp, Int32 timeoutMilliseconds, Activity activity, IOBehavior ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/Core/ConnectionPool.cs:line 150
+   at MySqlConnector.MySqlConnection.CreateSessionAsync(ConnectionPool pool, Int64 startingTimestamp, Activity activity, Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 1092
+   at MySqlConnector.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in /_/src/MySqlConnector/MySqlConnection.cs:line 567
+   at MySqlConnector.MySqlConnection.Open() in /_/src/MySqlConnector/MySqlConnection.cs:line 522
+   at CS2_SimpleAdmin.Database.Database.GetConnection()
+   at CS2_SimpleAdmin.Database.Database.CheckDatabaseConnection(String& exception)
+   at CS2_SimpleAdmin.CS2_SimpleAdmin.OnConfigParsed(CS2_SimpleAdminConfig config)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 393
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-07-23 03:37:48.109 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 03:37:48.135 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 03:37:48.162 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 03:37:48.239 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:40:11.537 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 03:40:11.651 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 03:40:11.665 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 03:40:11.669 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 03:40:11.672 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 03:40:11.673 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 03:40:11.675 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 03:40:12.331 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 03:40:12.826 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-07-23 03:40:12.855 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 03:40:12.882 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 03:40:12.907 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 03:40:12.980 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:40:23.441 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 0 admins.
+2025-07-23 03:40:25.643 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 0 admins.
+2025-07-23 03:40:27.043 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 0 admins.
+2025-07-23 03:40:28.736 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 0 admins.
+2025-07-23 03:41:17.154 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 03:41:18.821 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 03:52:09.794 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 03:52:09.918 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 03:52:09.931 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 03:52:09.936 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 03:52:09.938 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 03:52:09.940 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 03:52:09.942 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 03:52:10.542 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 03:52:11.080 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-07-23 03:52:11.112 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 03:52:11.140 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 03:52:11.166 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 03:52:11.242 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 03:52:21.116 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 03:52:23.286 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 03:52:33.260 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 03:52:26.301 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 04:03:23.663 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 04:03:23.783 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 04:03:23.796 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 04:03:23.800 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 04:03:23.802 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 04:03:23.804 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 04:03:23.807 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 04:03:24.379 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 04:03:24.895 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-07-23 04:03:24.928 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 04:03:24.955 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 04:03:24.982 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 04:03:25.054 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 04:03:34.427 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 04:03:36.090 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 04:03:37.400 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 04:03:39.611 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 04:17:10.387 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-07-23 04:17:10.506 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-07-23 04:17:01.345 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 42 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-07-23 04:17:01.352 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 8 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-07-23 04:17:01.354 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-07-23 04:17:01.357 +00:00 [WARN] (cssharp:AdminManager) Admin data file not found. Skipping admin data load.
+2025-07-23 04:17:01.358 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-07-23 04:17:01.361 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-07-23 04:17:01.959 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-07-23 04:17:02.471 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-07-23 04:17:02.507 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-07-23 04:17:02.614 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-07-23 04:17:02.639 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-07-23 04:17:02.660 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-07-23 04:17:02.686 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-07-23 04:17:02.769 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-07-23 04:17:02.794 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-07-23 04:17:02.815 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-07-23 04:17:11.887 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 04:17:14.038 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 04:17:15.333 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-07-23 04:17:17.050 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.

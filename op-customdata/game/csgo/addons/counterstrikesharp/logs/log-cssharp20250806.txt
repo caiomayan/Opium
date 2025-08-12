@@ -1,0 +1,695 @@
+2025-08-06 00:41:28.580 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-06 00:41:28.705 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-06 00:41:28.717 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-06 00:41:28.730 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-06 00:41:28.732 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-06 00:41:28.758 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-06 00:41:28.759 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-06 00:41:28.761 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-06 00:41:29.696 +00:00 [INFO] (cssharp:PluginContext) Loading plugin AFKManager
+2025-08-06 00:41:29.745 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin AFK Manager
+2025-08-06 00:41:30.239 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-CustomVotes
+2025-08-06 00:41:30.363 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Custom Votes
+2025-08-06 00:41:30.573 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-06 00:41:31.056 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-06 00:41:31.135 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2_ExecAfter
+2025-08-06 00:41:31.140 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2_ExecAfter
+2025-08-06 00:41:31.968 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-06 00:41:52.057 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/DiscordUtilities/DiscordUtilities.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Text.Json.JsonException: The JSON value could not be converted to System.Int32. Path: $['Database Connection'].Port | LineNumber: 9 | BytePositionInLine: 14.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a number.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedNumber(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.TryGetInt32(Int32& value)
+   at System.Text.Json.Utf8JsonReader.GetInt32()
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at CounterStrikeSharp.API.Modules.Config.ConfigManager.Deserialize[T](String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Modules/Config/ConfigManager.cs:line 121
+   at CounterStrikeSharp.API.Modules.Config.ConfigManager.Load[T](String pluginName) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Modules/Config/ConfigManager.cs:line 72
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 387
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-08-06 00:41:32.201 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-06 00:41:32.225 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-06 00:41:32.287 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-06 00:41:32.302 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-06 00:41:32.391 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-06 00:41:32.430 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-06 00:41:32.502 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-06 00:41:32.520 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-06 00:41:32.590 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-06 00:41:32.611 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-06 00:41:32.752 +00:00 [INFO] (cssharp:PluginContext) Loading plugin GameModeManager
+2025-08-06 00:41:32.940 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin GameModeManager
+2025-08-06 00:41:33.020 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InstadefusePlugin
+2025-08-06 00:41:33.038 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Instadefuse Plugin
+2025-08-06 00:41:33.195 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-06 00:41:33.343 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-06 00:41:33.442 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-06 00:41:33.472 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-06 00:41:33.579 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-06 00:41:33.599 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-06 00:41:33.710 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-06 00:41:33.733 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-06 00:41:33.819 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-06 00:41:34.013 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-06 00:41:34.113 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-06 00:41:34.132 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-06 00:41:34.345 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-06 00:41:34.364 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-06 00:41:34.428 +00:00 [INFO] (cssharp:PluginContext) Loading plugin WeaponRestrict
+2025-08-06 00:41:34.464 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin WeaponRestrict
+2025-08-06 00:41:34.654 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ChatRelay.ChatRelay.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 188
+   at ChatRelay.ChatRelay.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 25
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-06 00:41:34.657 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ConnectedPlayersRole.ConnectedPlayersRole.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 87
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 21
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-06 00:41:34.658 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at EventNotifications.EventNotifications.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 371
+   at EventNotifications.EventNotifications.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 27
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-06 00:41:34.661 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ManageRolesAndPermissions.ManageRolesAndPermissions.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ManageRolesAndPermissions\ManageRolesAndPermissions.cs:line 210
+   at ManageRolesAndPermissions.ManageRolesAndPermissions.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ManageRolesAndPermissions\ManageRolesAndPermissions.cs:line 31
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-06 00:41:34.662 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at RCON.RCON.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\RCON\Rcon.cs:line 172
+   at RCON.RCON.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\RCON\Rcon.cs:line 21
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-06 00:41:41.067 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.PerformMapEnd() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 242
+   at EventNotifications.EventNotifications.<Load>b__17_0() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 35
+   at InvokeStub_OnMapEnd.Invoke(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass51_0`1.<RegisterListener>b__2(ScriptContext context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 298
+   at InvokeStub_Action`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context)
+2025-08-06 00:42:07.080 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 00:42:07.105 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 00:41:49.564 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-06 00:41:51.750 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-06 00:41:52.955 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-06 00:41:55.158 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-06 00:43:55.344 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ChatRelay.ChatRelay.OnPlayerSay(CCSPlayerController player, CommandInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 40
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass48_0.<AddCommandListener>b__0(Int32 i, IntPtr ptr) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 218
+   at InvokeStub_Func`3.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 00:43:55.398 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 00:43:55.402 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 00:43:55.440 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 00:43:55.443 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 00:43:55.752 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.PerformMapEnd() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 242
+   at EventNotifications.EventNotifications.<Load>b__17_0() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 35
+   at InvokeStub_OnMapEnd.Invoke(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass51_0`1.<RegisterListener>b__2(ScriptContext context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 298
+   at InvokeStub_Action`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context)
+2025-08-06 00:44:00.706 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 00:44:00.717 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 01:04:46.475 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 01:04:46.478 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 01:14:15.871 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 01:14:15.874 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 01:14:16.967 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 01:14:16.970 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 01:14:17.725 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 01:14:17.727 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 01:14:40.024 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 01:14:40.030 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 03:19:33.231 +00:00 [INFO] (cssharp:Core) CounterStrikeSharp is starting up...
+2025-08-06 03:19:33.361 +00:00 [INFO] (cssharp:CoreConfig) Successfully loaded core configuration
+2025-08-06 03:19:33.375 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 43 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/gamedata.json
+2025-08-06 03:19:33.381 +00:00 [INFO] (cssharp:GameDataProvider) Successfully loaded 9 game data entries from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/gamedata/inventory-simulator.json
+2025-08-06 03:19:33.383 +00:00 [INFO] (cssharp:Core) Loading Admins from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admins.json
+2025-08-06 03:19:33.406 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-06 03:19:33.408 +00:00 [INFO] (cssharp:Core) Loading Admin Groups from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_groups.json
+2025-08-06 03:19:33.410 +00:00 [INFO] (cssharp:Core) Loading Admin Command Overrides from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/configs/admin_overrides.json
+2025-08-06 03:19:33.975 +00:00 [INFO] (cssharp:PluginContext) Loading plugin AFKManager
+2025-08-06 03:19:34.018 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin AFK Manager
+2025-08-06 03:19:34.141 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-CustomVotes
+2025-08-06 03:19:34.230 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Custom Votes
+2025-08-06 03:19:34.281 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2-SimpleAdmin
+2025-08-06 03:19:34.800 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2-SimpleAdmin (RELEASE)
+2025-08-06 03:19:34.829 +00:00 [INFO] (cssharp:PluginContext) Loading plugin CS2_ExecAfter
+2025-08-06 03:19:34.835 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin CS2_ExecAfter
+2025-08-06 03:19:34.999 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DiscordUtilities
+2025-08-06 03:19:35.029 +00:00 [EROR] (cssharp:PluginManager) Failed to load plugin from /home/steam/cs2-dedicated/game/csgo/addons/counterstrikesharp/plugins/DiscordUtilities/DiscordUtilities.dll
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Text.Json.JsonException: The JSON value could not be converted to System.Int32. Path: $['Database Connection'].Port | LineNumber: 9 | BytePositionInLine: 14.
+ ---> System.InvalidOperationException: Cannot get the value of a token type 'String' as a number.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ExpectedNumber(JsonTokenType tokenType)
+   at System.Text.Json.Utf8JsonReader.TryGetInt32(Int32& value)
+   at System.Text.Json.Utf8JsonReader.GetInt32()
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value, Boolean& isPopulatedValue)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, Utf8JsonReader& reader, Exception ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 utf8Json, JsonTypeInfo`1 jsonTypeInfo, Nullable`1 actualByteCount)
+   at System.Text.Json.JsonSerializer.ReadFromSpan[TValue](ReadOnlySpan`1 json, JsonTypeInfo`1 jsonTypeInfo)
+   at CounterStrikeSharp.API.Modules.Config.ConfigManager.Deserialize[T](String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Modules/Config/ConfigManager.cs:line 121
+   at CounterStrikeSharp.API.Modules.Config.ConfigManager.Load[T](String pluginName) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Modules/Config/ConfigManager.cs:line 72
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at CounterStrikeSharp.API.Core.BasePlugin.InitializeConfig(Object instance, Type pluginType) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 387
+   at CounterStrikeSharp.API.Core.Plugin.PluginContext.Load(Boolean hotReload) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/PluginContext.cs:line 217
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.LoadPlugin(String path) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 125
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 93
+2025-08-06 03:19:35.095 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ChatRelay
+2025-08-06 03:19:35.114 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Chat Relay
+2025-08-06 03:19:35.144 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ConnectedPlayersRole
+2025-08-06 03:19:35.156 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Connected Players Role
+2025-08-06 03:19:35.185 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_EventNotifications
+2025-08-06 03:19:35.216 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Event Notifications
+2025-08-06 03:19:35.243 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_ManageRolesAndPermissions
+2025-08-06 03:19:35.257 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] Manage Roles and Permissions
+2025-08-06 03:19:35.281 +00:00 [INFO] (cssharp:PluginContext) Loading plugin DU_Rcon
+2025-08-06 03:19:35.296 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin [Discord Utilities] RCON
+2025-08-06 03:19:35.324 +00:00 [INFO] (cssharp:PluginContext) Loading plugin GameModeManager
+2025-08-06 03:19:35.441 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin GameModeManager
+2025-08-06 03:19:35.465 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InstadefusePlugin
+2025-08-06 03:19:35.479 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Instadefuse Plugin
+2025-08-06 03:19:35.504 +00:00 [INFO] (cssharp:PluginContext) Loading plugin InventorySimulator
+2025-08-06 03:19:35.660 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin InventorySimulator
+2025-08-06 03:19:35.687 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerAPI
+2025-08-06 03:19:35.713 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManagerAPI
+2025-08-06 03:19:35.738 +00:00 [INFO] (cssharp:PluginContext) Loading plugin MenuManagerCore
+2025-08-06 03:19:35.752 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin MenuManager [Core]
+2025-08-06 03:19:35.775 +00:00 [INFO] (cssharp:PluginContext) Loading plugin NeedSystem
+2025-08-06 03:19:35.788 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin NeedSystem
+2025-08-06 03:19:35.813 +00:00 [INFO] (cssharp:PluginContext) Loading plugin PlayerSettings
+2025-08-06 03:19:35.899 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin PlayerSettings [Core]
+2025-08-06 03:19:35.937 +00:00 [INFO] (cssharp:PluginContext) Loading plugin ReservedSlots
+2025-08-06 03:19:35.950 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Reserved Slots (With DU Support)
+2025-08-06 03:19:35.987 +00:00 [INFO] (cssharp:PluginContext) Loading plugin RetakesPlugin
+2025-08-06 03:19:35.999 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin Retakes Plugin
+2025-08-06 03:19:36.020 +00:00 [INFO] (cssharp:PluginContext) Loading plugin WeaponRestrict
+2025-08-06 03:19:36.051 +00:00 [INFO] (cssharp:PluginContext) Finished loading plugin WeaponRestrict
+2025-08-06 03:19:36.261 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ChatRelay.ChatRelay.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 188
+   at ChatRelay.ChatRelay.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ChatRelay\ChatRelay.cs:line 25
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-06 03:19:36.265 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ConnectedPlayersRole.ConnectedPlayersRole.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 87
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 21
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-06 03:19:36.268 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at EventNotifications.EventNotifications.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 371
+   at EventNotifications.EventNotifications.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 27
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-06 03:19:36.270 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at ManageRolesAndPermissions.ManageRolesAndPermissions.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ManageRolesAndPermissions\ManageRolesAndPermissions.cs:line 210
+   at ManageRolesAndPermissions.ManageRolesAndPermissions.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ManageRolesAndPermissions\ManageRolesAndPermissions.cs:line 31
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-06 03:19:36.272 +00:00 [EROR] (cssharp:PluginManager) OnAllPluginsLoaded failed
+System.Collections.Generic.KeyNotFoundException: The given key 'discord_utilities' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at CounterStrikeSharp.API.Core.Capabilities.PluginCapability`1.Get() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Capabilities/PluginCapability.cs:line 17
+   at RCON.RCON.GetDiscordUtilitiesEventSender() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\RCON\Rcon.cs:line 172
+   at RCON.RCON.OnAllPluginsLoaded(Boolean hotReload) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\RCON\Rcon.cs:line 21
+   at CounterStrikeSharp.API.Core.Plugin.Host.PluginManager.Load() in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/Plugin/Host/PluginManager.cs:line 106
+2025-08-06 03:20:01.908 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.PerformMapEnd() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 242
+   at EventNotifications.EventNotifications.<Load>b__17_0() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 35
+   at InvokeStub_OnMapEnd.Invoke(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass51_0`1.<RegisterListener>b__2(ScriptContext context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 298
+   at InvokeStub_Action`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context)
+2025-08-06 03:19:47.147 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 03:19:47.169 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 03:19:49.424 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-06 03:19:51.627 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-06 03:19:53.015 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-06 03:19:55.218 +00:00 [INFO] (cssharp:AdminManager) Loaded admin data with 1 admins.
+2025-08-06 03:21:15.146 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 03:21:15.148 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 03:21:15.168 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 03:21:15.170 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 03:21:15.346 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.PerformMapEnd() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 242
+   at EventNotifications.EventNotifications.<Load>b__17_0() in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 35
+   at InvokeStub_OnMapEnd.Invoke(Object, Object, IntPtr*)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.BasePlugin.<>c__DisplayClass51_0`1.<RegisterListener>b__2(ScriptContext context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/BasePlugin.cs:line 298
+   at InvokeStub_Action`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context)
+2025-08-06 03:21:18.631 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 03:21:18.639 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 03:23:43.303 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 03:23:43.304 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 04:12:03.072 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 04:12:03.081 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 04:12:27.016 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 04:12:27.019 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 04:13:02.176 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 04:13:02.178 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 04:13:07.531 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 04:13:07.533 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 04:13:09.838 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at EventNotifications.EventNotifications.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\EventNotifications\EventNotifications.cs:line 298
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
+2025-08-06 04:13:09.839 +00:00 [EROR] (cssharp:Core) Error invoking callback
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.
+ ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at ConnectedPlayersRole.ConnectedPlayersRole.OnPlayerDisconnect(EventPlayerDisconnect event, GameEventInfo info) in C:\Users\Mates-PC\Desktop\SourceFactory\Projects\CSharp\Discord Utilities\src\Addons\ConnectedPlayersRole\ConnectedPlayersRole.cs:line 69
+   at InvokeStub_GameEventHandler`1.Invoke(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   --- End of inner exception stack trace ---
+   at System.Reflection.MethodBaseInvoker.InvokeWithFewArgs(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Delegate.DynamicInvokeImpl(Object[] args)
+   at CounterStrikeSharp.API.Core.FunctionReference.<CreateWrappedCallback>b__18_0(fxScriptContext* context) in /home/runner/work/CounterStrikeSharp/CounterStrikeSharp/managed/CounterStrikeSharp.API/Core/FunctionReference.cs:line 101
